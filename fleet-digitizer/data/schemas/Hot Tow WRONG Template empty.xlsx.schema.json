@@ -1,0 +1,6660 @@
+{
+  "type": "xlsx",
+  "sheetName": "Sheet1",
+  "labels": [
+    {
+      "text": "Shuttle Tow Test",
+      "norm": "shuttle tow test",
+      "address": "J1",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "text": "Hot",
+      "norm": "hot",
+      "address": "C3",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "text": "Cold",
+      "norm": "cold",
+      "address": "I3",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "text": "Catapult:",
+      "norm": "catapult",
+      "address": "B5",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "text": "Date:",
+      "norm": "date",
+      "address": "E5",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "text": "Location:",
+      "norm": "location",
+      "address": "H5",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "text": "Elongs:",
+      "norm": "elongs",
+      "address": "B7",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "text": "Outboard",
+      "norm": "outboard",
+      "address": "E7",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "text": "Note:",
+      "norm": "note",
+      "address": "A9",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "text": "Forward to Aft",
+      "norm": "forward to aft",
+      "address": "C13",
+      "row": 13,
+      "col": 3
+    },
+    {
+      "text": "Aft to Forward",
+      "norm": "aft to forward",
+      "address": "I13",
+      "row": 13,
+      "col": 9
+    },
+    {
+      "text": "Shuttle Tow Test",
+      "norm": "shuttle tow test",
+      "address": "J47",
+      "row": 47,
+      "col": 10
+    },
+    {
+      "text": "Hot",
+      "norm": "hot",
+      "address": "C49",
+      "row": 49,
+      "col": 3
+    },
+    {
+      "text": "Cold",
+      "norm": "cold",
+      "address": "I49",
+      "row": 49,
+      "col": 9
+    },
+    {
+      "text": "Catapult:",
+      "norm": "catapult",
+      "address": "B51",
+      "row": 51,
+      "col": 2
+    },
+    {
+      "text": "Date:",
+      "norm": "date",
+      "address": "E51",
+      "row": 51,
+      "col": 5
+    },
+    {
+      "text": "Location:",
+      "norm": "location",
+      "address": "H51",
+      "row": 51,
+      "col": 8
+    },
+    {
+      "text": "Elongs:",
+      "norm": "elongs",
+      "address": "B53",
+      "row": 53,
+      "col": 2
+    },
+    {
+      "text": "Cold",
+      "norm": "cold",
+      "address": "F53",
+      "row": 53,
+      "col": 6
+    },
+    {
+      "text": "Note:",
+      "norm": "note",
+      "address": "A55",
+      "row": 55,
+      "col": 1
+    },
+    {
+      "text": "Forward to Aft",
+      "norm": "forward to aft",
+      "address": "C59",
+      "row": 59,
+      "col": 3
+    },
+    {
+      "text": "Aft to Forward",
+      "norm": "aft to forward",
+      "address": "I59",
+      "row": 59,
+      "col": 9
+    }
+  ],
+  "fields": [
+    {
+      "id": "shuttle_tow_test",
+      "label": "Shuttle Tow Test",
+      "labelNorm": "shuttle tow test",
+      "aliases": [
+        "shuttle tow test",
+        "shuttle",
+        "tow",
+        "test",
+        "Shuttle Tow Test"
+      ],
+      "labelAddress": "J1",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "K1",
+        "row": 1,
+        "col": 11,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "hot",
+      "label": "Hot",
+      "labelNorm": "hot",
+      "aliases": [
+        "hot",
+        "Hot"
+      ],
+      "labelAddress": "C3",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D3",
+        "row": 3,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "cold",
+      "label": "Cold",
+      "labelNorm": "cold",
+      "aliases": [
+        "cold",
+        "Cold"
+      ],
+      "labelAddress": "I3",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J3",
+        "row": 3,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "catapult",
+      "label": "Catapult:",
+      "labelNorm": "catapult",
+      "aliases": [
+        "catapult",
+        "Catapult"
+      ],
+      "labelAddress": "B5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C5",
+        "row": 5,
+        "col": 3,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "small_int"
+    },
+    {
+      "id": "date",
+      "label": "Date:",
+      "labelNorm": "date",
+      "aliases": [
+        "date",
+        "Date"
+      ],
+      "labelAddress": "E5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F5",
+        "row": 5,
+        "col": 6,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "date"
+    },
+    {
+      "id": "location",
+      "label": "Location:",
+      "labelNorm": "location",
+      "aliases": [
+        "location",
+        "Location"
+      ],
+      "labelAddress": "H5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I5",
+        "row": 5,
+        "col": 9,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "elongs",
+      "label": "Elongs:",
+      "labelNorm": "elongs",
+      "aliases": [
+        "elongs",
+        "Elongs"
+      ],
+      "labelAddress": "B7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D7",
+        "row": 7,
+        "col": 4,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "outboard",
+      "label": "Outboard",
+      "labelNorm": "outboard",
+      "aliases": [
+        "outboard",
+        "Outboard"
+      ],
+      "labelAddress": "E7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F7",
+        "row": 7,
+        "col": 6,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "note",
+      "label": "Note:",
+      "labelNorm": "note",
+      "aliases": [
+        "note",
+        "Note"
+      ],
+      "labelAddress": "A9",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C9",
+        "row": 9,
+        "col": 3,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "forward_to_aft",
+      "label": "Forward to Aft",
+      "labelNorm": "forward to aft",
+      "aliases": [
+        "forward to aft",
+        "forward",
+        "aft",
+        "Forward to Aft"
+      ],
+      "labelAddress": "C13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D13",
+        "row": 13,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "force_lb"
+    },
+    {
+      "id": "aft_to_forward",
+      "label": "Aft to Forward",
+      "labelNorm": "aft to forward",
+      "aliases": [
+        "aft to forward",
+        "aft",
+        "forward",
+        "Aft to Forward"
+      ],
+      "labelAddress": "I13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J13",
+        "row": 13,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "force_lb"
+    },
+    {
+      "id": "shuttle_tow_test_2",
+      "label": "Shuttle Tow Test",
+      "labelNorm": "shuttle tow test",
+      "aliases": [
+        "shuttle tow test",
+        "shuttle",
+        "tow",
+        "test",
+        "Shuttle Tow Test"
+      ],
+      "labelAddress": "J47",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "K47",
+        "row": 47,
+        "col": 11,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "hot_2",
+      "label": "Hot",
+      "labelNorm": "hot",
+      "aliases": [
+        "hot",
+        "Hot"
+      ],
+      "labelAddress": "C49",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D49",
+        "row": 49,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "cold_2",
+      "label": "Cold",
+      "labelNorm": "cold",
+      "aliases": [
+        "cold",
+        "Cold"
+      ],
+      "labelAddress": "I49",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J49",
+        "row": 49,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "catapult_2",
+      "label": "Catapult:",
+      "labelNorm": "catapult",
+      "aliases": [
+        "catapult",
+        "Catapult"
+      ],
+      "labelAddress": "B51",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D51",
+        "row": 51,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "small_int"
+    },
+    {
+      "id": "date_2",
+      "label": "Date:",
+      "labelNorm": "date",
+      "aliases": [
+        "date",
+        "Date"
+      ],
+      "labelAddress": "E51",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "G51",
+        "row": 51,
+        "col": 7,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "date"
+    },
+    {
+      "id": "location_2",
+      "label": "Location:",
+      "labelNorm": "location",
+      "aliases": [
+        "location",
+        "Location"
+      ],
+      "labelAddress": "H51",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J51",
+        "row": 51,
+        "col": 10,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "elongs_2",
+      "label": "Elongs:",
+      "labelNorm": "elongs",
+      "aliases": [
+        "elongs",
+        "Elongs"
+      ],
+      "labelAddress": "B53",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D53",
+        "row": 53,
+        "col": 4,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "cold_3",
+      "label": "Cold",
+      "labelNorm": "cold",
+      "aliases": [
+        "cold",
+        "Cold"
+      ],
+      "labelAddress": "F53",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "G53",
+        "row": 53,
+        "col": 7,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "note_2",
+      "label": "Note:",
+      "labelNorm": "note",
+      "aliases": [
+        "note",
+        "Note"
+      ],
+      "labelAddress": "A55",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C55",
+        "row": 55,
+        "col": 3,
+        "strategy": "right_of_label_fallback"
+      },
+      "kind": "header",
+      "fieldType": "text"
+    },
+    {
+      "id": "forward_to_aft_2",
+      "label": "Forward to Aft",
+      "labelNorm": "forward to aft",
+      "aliases": [
+        "forward to aft",
+        "forward",
+        "aft",
+        "Forward to Aft"
+      ],
+      "labelAddress": "C59",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D59",
+        "row": 59,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "force_lb"
+    },
+    {
+      "id": "aft_to_forward_2",
+      "label": "Aft to Forward",
+      "labelNorm": "aft to forward",
+      "aliases": [
+        "aft to forward",
+        "aft",
+        "forward",
+        "Aft to Forward"
+      ],
+      "labelAddress": "I59",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J59",
+        "row": 59,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "force_lb"
+    },
+    {
+      "id": "col1_1",
+      "label": "col1 #1",
+      "labelNorm": "col1 1",
+      "aliases": [
+        "col1",
+        "1",
+        "col1 1",
+        "col1 #1"
+      ],
+      "labelAddress": "A15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B15",
+        "row": 15,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 1,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_1",
+      "label": "Forward to Aft #1",
+      "labelNorm": "aft 1",
+      "aliases": [
+        "aft",
+        "1",
+        "aft 1",
+        "Forward to Aft #1"
+      ],
+      "labelAddress": "A15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C15",
+        "row": 15,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 1,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_2",
+      "label": "col1 #2",
+      "labelNorm": "col1 2",
+      "aliases": [
+        "col1",
+        "2",
+        "col1 2",
+        "col1 #2"
+      ],
+      "labelAddress": "A16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B16",
+        "row": 16,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 2,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_2",
+      "label": "Forward to Aft #2",
+      "labelNorm": "aft 2",
+      "aliases": [
+        "aft",
+        "2",
+        "aft 2",
+        "Forward to Aft #2"
+      ],
+      "labelAddress": "A16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C16",
+        "row": 16,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 2,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_3",
+      "label": "col1 #3",
+      "labelNorm": "col1 3",
+      "aliases": [
+        "col1",
+        "3",
+        "col1 3",
+        "col1 #3"
+      ],
+      "labelAddress": "A17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B17",
+        "row": 17,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 3,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_3",
+      "label": "Forward to Aft #3",
+      "labelNorm": "aft 3",
+      "aliases": [
+        "aft",
+        "3",
+        "aft 3",
+        "Forward to Aft #3"
+      ],
+      "labelAddress": "A17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C17",
+        "row": 17,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 3,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_4",
+      "label": "col1 #4",
+      "labelNorm": "col1 4",
+      "aliases": [
+        "col1",
+        "4",
+        "col1 4",
+        "col1 #4"
+      ],
+      "labelAddress": "A18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B18",
+        "row": 18,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 4,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_4",
+      "label": "Forward to Aft #4",
+      "labelNorm": "aft 4",
+      "aliases": [
+        "aft",
+        "4",
+        "aft 4",
+        "Forward to Aft #4"
+      ],
+      "labelAddress": "A18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C18",
+        "row": 18,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 4,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_5",
+      "label": "col1 #5",
+      "labelNorm": "col1 5",
+      "aliases": [
+        "col1",
+        "5",
+        "col1 5"
+      ],
+      "labelAddress": "A19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B19",
+        "row": 19,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 5,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_5",
+      "label": "Forward to Aft #5",
+      "labelNorm": "aft 5",
+      "aliases": [
+        "aft",
+        "5",
+        "aft 5"
+      ],
+      "labelAddress": "A19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C19",
+        "row": 19,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 5,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_6",
+      "label": "col1 #6",
+      "labelNorm": "col1 6",
+      "aliases": [
+        "col1",
+        "6",
+        "col1 6"
+      ],
+      "labelAddress": "A20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B20",
+        "row": 20,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 6,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_6",
+      "label": "Forward to Aft #6",
+      "labelNorm": "aft 6",
+      "aliases": [
+        "aft",
+        "6",
+        "aft 6"
+      ],
+      "labelAddress": "A20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C20",
+        "row": 20,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 6,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_7",
+      "label": "col1 #7",
+      "labelNorm": "col1 7",
+      "aliases": [
+        "col1",
+        "7",
+        "col1 7"
+      ],
+      "labelAddress": "A21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B21",
+        "row": 21,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 7,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_7",
+      "label": "Forward to Aft #7",
+      "labelNorm": "aft 7",
+      "aliases": [
+        "aft",
+        "7",
+        "aft 7"
+      ],
+      "labelAddress": "A21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C21",
+        "row": 21,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 7,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_8",
+      "label": "col1 #8",
+      "labelNorm": "col1 8",
+      "aliases": [
+        "col1",
+        "8",
+        "col1 8"
+      ],
+      "labelAddress": "A22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B22",
+        "row": 22,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 8,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_8",
+      "label": "Forward to Aft #8",
+      "labelNorm": "aft 8",
+      "aliases": [
+        "aft",
+        "8",
+        "aft 8"
+      ],
+      "labelAddress": "A22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C22",
+        "row": 22,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 8,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_9",
+      "label": "col1 #9",
+      "labelNorm": "col1 9",
+      "aliases": [
+        "col1",
+        "9",
+        "col1 9"
+      ],
+      "labelAddress": "A23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B23",
+        "row": 23,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 9,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_9",
+      "label": "Forward to Aft #9",
+      "labelNorm": "aft 9",
+      "aliases": [
+        "aft",
+        "9",
+        "aft 9"
+      ],
+      "labelAddress": "A23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C23",
+        "row": 23,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 9,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_10",
+      "label": "col1 #10",
+      "labelNorm": "col1 10",
+      "aliases": [
+        "col1",
+        "10",
+        "col1 10"
+      ],
+      "labelAddress": "A24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B24",
+        "row": 24,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 10,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_10",
+      "label": "Forward to Aft #10",
+      "labelNorm": "aft 10",
+      "aliases": [
+        "aft",
+        "10",
+        "aft 10"
+      ],
+      "labelAddress": "A24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C24",
+        "row": 24,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 10,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_11",
+      "label": "col1 #11",
+      "labelNorm": "col1 11",
+      "aliases": [
+        "col1",
+        "11",
+        "col1 11"
+      ],
+      "labelAddress": "A25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B25",
+        "row": 25,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 11,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_11",
+      "label": "Forward to Aft #11",
+      "labelNorm": "aft 11",
+      "aliases": [
+        "aft",
+        "11",
+        "aft 11"
+      ],
+      "labelAddress": "A25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C25",
+        "row": 25,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 11,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_12",
+      "label": "col1 #12",
+      "labelNorm": "col1 12",
+      "aliases": [
+        "col1",
+        "12",
+        "col1 12"
+      ],
+      "labelAddress": "A26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B26",
+        "row": 26,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 12,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_12",
+      "label": "Forward to Aft #12",
+      "labelNorm": "aft 12",
+      "aliases": [
+        "aft",
+        "12",
+        "aft 12"
+      ],
+      "labelAddress": "A26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C26",
+        "row": 26,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 12,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_13",
+      "label": "col1 #13",
+      "labelNorm": "col1 13",
+      "aliases": [
+        "col1",
+        "13",
+        "col1 13"
+      ],
+      "labelAddress": "A27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B27",
+        "row": 27,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 13,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_13",
+      "label": "Forward to Aft #13",
+      "labelNorm": "aft 13",
+      "aliases": [
+        "aft",
+        "13",
+        "aft 13"
+      ],
+      "labelAddress": "A27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C27",
+        "row": 27,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 13,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_14",
+      "label": "col1 #14",
+      "labelNorm": "col1 14",
+      "aliases": [
+        "col1",
+        "14",
+        "col1 14"
+      ],
+      "labelAddress": "A28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B28",
+        "row": 28,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 14,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_14",
+      "label": "Forward to Aft #14",
+      "labelNorm": "aft 14",
+      "aliases": [
+        "aft",
+        "14",
+        "aft 14"
+      ],
+      "labelAddress": "A28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C28",
+        "row": 28,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 14,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_15",
+      "label": "col1 #15",
+      "labelNorm": "col1 15",
+      "aliases": [
+        "col1",
+        "15",
+        "col1 15"
+      ],
+      "labelAddress": "A29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B29",
+        "row": 29,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 15,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_15",
+      "label": "Forward to Aft #15",
+      "labelNorm": "aft 15",
+      "aliases": [
+        "aft",
+        "15",
+        "aft 15"
+      ],
+      "labelAddress": "A29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C29",
+        "row": 29,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 15,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_16",
+      "label": "col1 #16",
+      "labelNorm": "col1 16",
+      "aliases": [
+        "col1",
+        "16",
+        "col1 16"
+      ],
+      "labelAddress": "A30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B30",
+        "row": 30,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 16,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_16",
+      "label": "Forward to Aft #16",
+      "labelNorm": "aft 16",
+      "aliases": [
+        "aft",
+        "16",
+        "aft 16"
+      ],
+      "labelAddress": "A30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C30",
+        "row": 30,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 16,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_17",
+      "label": "col1 #17",
+      "labelNorm": "col1 17",
+      "aliases": [
+        "col1",
+        "17",
+        "col1 17"
+      ],
+      "labelAddress": "A31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B31",
+        "row": 31,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 17,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_17",
+      "label": "Forward to Aft #17",
+      "labelNorm": "aft 17",
+      "aliases": [
+        "aft",
+        "17",
+        "aft 17"
+      ],
+      "labelAddress": "A31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C31",
+        "row": 31,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 17,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_18",
+      "label": "col1 #18",
+      "labelNorm": "col1 18",
+      "aliases": [
+        "col1",
+        "18",
+        "col1 18"
+      ],
+      "labelAddress": "A32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B32",
+        "row": 32,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 18,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_18",
+      "label": "Forward to Aft #18",
+      "labelNorm": "aft 18",
+      "aliases": [
+        "aft",
+        "18",
+        "aft 18"
+      ],
+      "labelAddress": "A32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C32",
+        "row": 32,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 18,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_19",
+      "label": "col1 #19",
+      "labelNorm": "col1 19",
+      "aliases": [
+        "col1",
+        "19",
+        "col1 19"
+      ],
+      "labelAddress": "A33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B33",
+        "row": 33,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 19,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_19",
+      "label": "Forward to Aft #19",
+      "labelNorm": "aft 19",
+      "aliases": [
+        "aft",
+        "19",
+        "aft 19"
+      ],
+      "labelAddress": "A33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C33",
+        "row": 33,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 19,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_20",
+      "label": "col1 #20",
+      "labelNorm": "col1 20",
+      "aliases": [
+        "col1",
+        "20",
+        "col1 20"
+      ],
+      "labelAddress": "A34",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B34",
+        "row": 34,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 20,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_20",
+      "label": "Forward to Aft #20",
+      "labelNorm": "aft 20",
+      "aliases": [
+        "aft",
+        "20",
+        "aft 20"
+      ],
+      "labelAddress": "A34",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C34",
+        "row": 34,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 20,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_21",
+      "label": "col1 #21",
+      "labelNorm": "col1 21",
+      "aliases": [
+        "col1",
+        "21",
+        "col1 21"
+      ],
+      "labelAddress": "A35",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "B35",
+        "row": 35,
+        "col": 2,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 21,
+        "columnRole": "col1",
+        "valueCol": 2
+      }
+    },
+    {
+      "id": "aft_21",
+      "label": "Forward to Aft #21",
+      "labelNorm": "aft 21",
+      "aliases": [
+        "aft",
+        "21",
+        "aft 21"
+      ],
+      "labelAddress": "A35",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "C35",
+        "row": 35,
+        "col": 3,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 1,
+        "index": 21,
+        "columnRole": "aft",
+        "valueCol": 3
+      }
+    },
+    {
+      "id": "col1_22",
+      "label": "col1 #22",
+      "labelNorm": "col1 22",
+      "aliases": [
+        "col1",
+        "22",
+        "col1 22"
+      ],
+      "labelAddress": "D15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E15",
+        "row": 15,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 22,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_22",
+      "label": "col2 #22",
+      "labelNorm": "col2 22",
+      "aliases": [
+        "col2",
+        "22",
+        "col2 22"
+      ],
+      "labelAddress": "D15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F15",
+        "row": 15,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 22,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_23",
+      "label": "col1 #23",
+      "labelNorm": "col1 23",
+      "aliases": [
+        "col1",
+        "23",
+        "col1 23"
+      ],
+      "labelAddress": "D16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E16",
+        "row": 16,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 23,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_23",
+      "label": "col2 #23",
+      "labelNorm": "col2 23",
+      "aliases": [
+        "col2",
+        "23",
+        "col2 23"
+      ],
+      "labelAddress": "D16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F16",
+        "row": 16,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 23,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_24",
+      "label": "col1 #24",
+      "labelNorm": "col1 24",
+      "aliases": [
+        "col1",
+        "24",
+        "col1 24"
+      ],
+      "labelAddress": "D17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E17",
+        "row": 17,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 24,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_24",
+      "label": "col2 #24",
+      "labelNorm": "col2 24",
+      "aliases": [
+        "col2",
+        "24",
+        "col2 24"
+      ],
+      "labelAddress": "D17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F17",
+        "row": 17,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 24,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_25",
+      "label": "col1 #25",
+      "labelNorm": "col1 25",
+      "aliases": [
+        "col1",
+        "25",
+        "col1 25"
+      ],
+      "labelAddress": "D18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E18",
+        "row": 18,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 25,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_25",
+      "label": "col2 #25",
+      "labelNorm": "col2 25",
+      "aliases": [
+        "col2",
+        "25",
+        "col2 25"
+      ],
+      "labelAddress": "D18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F18",
+        "row": 18,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 25,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_26",
+      "label": "col1 #26",
+      "labelNorm": "col1 26",
+      "aliases": [
+        "col1",
+        "26",
+        "col1 26"
+      ],
+      "labelAddress": "D19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E19",
+        "row": 19,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 26,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_26",
+      "label": "col2 #26",
+      "labelNorm": "col2 26",
+      "aliases": [
+        "col2",
+        "26",
+        "col2 26"
+      ],
+      "labelAddress": "D19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F19",
+        "row": 19,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 26,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_27",
+      "label": "col1 #27",
+      "labelNorm": "col1 27",
+      "aliases": [
+        "col1",
+        "27",
+        "col1 27"
+      ],
+      "labelAddress": "D20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E20",
+        "row": 20,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 27,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_27",
+      "label": "col2 #27",
+      "labelNorm": "col2 27",
+      "aliases": [
+        "col2",
+        "27",
+        "col2 27"
+      ],
+      "labelAddress": "D20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F20",
+        "row": 20,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 27,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_28",
+      "label": "col1 #28",
+      "labelNorm": "col1 28",
+      "aliases": [
+        "col1",
+        "28",
+        "col1 28"
+      ],
+      "labelAddress": "D21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E21",
+        "row": 21,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 28,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_28",
+      "label": "col2 #28",
+      "labelNorm": "col2 28",
+      "aliases": [
+        "col2",
+        "28",
+        "col2 28"
+      ],
+      "labelAddress": "D21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F21",
+        "row": 21,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 28,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_29",
+      "label": "col1 #29",
+      "labelNorm": "col1 29",
+      "aliases": [
+        "col1",
+        "29",
+        "col1 29"
+      ],
+      "labelAddress": "D22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E22",
+        "row": 22,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 29,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_29",
+      "label": "col2 #29",
+      "labelNorm": "col2 29",
+      "aliases": [
+        "col2",
+        "29",
+        "col2 29"
+      ],
+      "labelAddress": "D22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F22",
+        "row": 22,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 29,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_30",
+      "label": "col1 #30",
+      "labelNorm": "col1 30",
+      "aliases": [
+        "col1",
+        "30",
+        "col1 30"
+      ],
+      "labelAddress": "D23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E23",
+        "row": 23,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 30,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_30",
+      "label": "col2 #30",
+      "labelNorm": "col2 30",
+      "aliases": [
+        "col2",
+        "30",
+        "col2 30"
+      ],
+      "labelAddress": "D23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F23",
+        "row": 23,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 30,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_31",
+      "label": "col1 #31",
+      "labelNorm": "col1 31",
+      "aliases": [
+        "col1",
+        "31",
+        "col1 31"
+      ],
+      "labelAddress": "D24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E24",
+        "row": 24,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 31,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_31",
+      "label": "col2 #31",
+      "labelNorm": "col2 31",
+      "aliases": [
+        "col2",
+        "31",
+        "col2 31"
+      ],
+      "labelAddress": "D24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F24",
+        "row": 24,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 31,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_32",
+      "label": "col1 #32",
+      "labelNorm": "col1 32",
+      "aliases": [
+        "col1",
+        "32",
+        "col1 32"
+      ],
+      "labelAddress": "D25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E25",
+        "row": 25,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 32,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_32",
+      "label": "col2 #32",
+      "labelNorm": "col2 32",
+      "aliases": [
+        "col2",
+        "32",
+        "col2 32"
+      ],
+      "labelAddress": "D25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F25",
+        "row": 25,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 32,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_33",
+      "label": "col1 #33",
+      "labelNorm": "col1 33",
+      "aliases": [
+        "col1",
+        "33",
+        "col1 33"
+      ],
+      "labelAddress": "D26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E26",
+        "row": 26,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 33,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_33",
+      "label": "col2 #33",
+      "labelNorm": "col2 33",
+      "aliases": [
+        "col2",
+        "33",
+        "col2 33"
+      ],
+      "labelAddress": "D26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F26",
+        "row": 26,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 33,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_34",
+      "label": "col1 #34",
+      "labelNorm": "col1 34",
+      "aliases": [
+        "col1",
+        "34",
+        "col1 34"
+      ],
+      "labelAddress": "D27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E27",
+        "row": 27,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 34,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_34",
+      "label": "col2 #34",
+      "labelNorm": "col2 34",
+      "aliases": [
+        "col2",
+        "34",
+        "col2 34"
+      ],
+      "labelAddress": "D27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F27",
+        "row": 27,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 34,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_35",
+      "label": "col1 #35",
+      "labelNorm": "col1 35",
+      "aliases": [
+        "col1",
+        "35",
+        "col1 35"
+      ],
+      "labelAddress": "D28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E28",
+        "row": 28,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 35,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_35",
+      "label": "col2 #35",
+      "labelNorm": "col2 35",
+      "aliases": [
+        "col2",
+        "35",
+        "col2 35"
+      ],
+      "labelAddress": "D28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F28",
+        "row": 28,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 35,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_36",
+      "label": "col1 #36",
+      "labelNorm": "col1 36",
+      "aliases": [
+        "col1",
+        "36",
+        "col1 36"
+      ],
+      "labelAddress": "D29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E29",
+        "row": 29,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 36,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_36",
+      "label": "col2 #36",
+      "labelNorm": "col2 36",
+      "aliases": [
+        "col2",
+        "36",
+        "col2 36"
+      ],
+      "labelAddress": "D29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F29",
+        "row": 29,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 36,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_37",
+      "label": "col1 #37",
+      "labelNorm": "col1 37",
+      "aliases": [
+        "col1",
+        "37",
+        "col1 37"
+      ],
+      "labelAddress": "D30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E30",
+        "row": 30,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 37,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_37",
+      "label": "col2 #37",
+      "labelNorm": "col2 37",
+      "aliases": [
+        "col2",
+        "37",
+        "col2 37"
+      ],
+      "labelAddress": "D30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F30",
+        "row": 30,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 37,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_38",
+      "label": "col1 #38",
+      "labelNorm": "col1 38",
+      "aliases": [
+        "col1",
+        "38",
+        "col1 38"
+      ],
+      "labelAddress": "D31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E31",
+        "row": 31,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 38,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_38",
+      "label": "col2 #38",
+      "labelNorm": "col2 38",
+      "aliases": [
+        "col2",
+        "38",
+        "col2 38"
+      ],
+      "labelAddress": "D31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F31",
+        "row": 31,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 38,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_39",
+      "label": "col1 #39",
+      "labelNorm": "col1 39",
+      "aliases": [
+        "col1",
+        "39",
+        "col1 39"
+      ],
+      "labelAddress": "D32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E32",
+        "row": 32,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 39,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_39",
+      "label": "col2 #39",
+      "labelNorm": "col2 39",
+      "aliases": [
+        "col2",
+        "39",
+        "col2 39"
+      ],
+      "labelAddress": "D32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F32",
+        "row": 32,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 39,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_40",
+      "label": "col1 #40",
+      "labelNorm": "col1 40",
+      "aliases": [
+        "col1",
+        "40",
+        "col1 40"
+      ],
+      "labelAddress": "D33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E33",
+        "row": 33,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 40,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_40",
+      "label": "col2 #40",
+      "labelNorm": "col2 40",
+      "aliases": [
+        "col2",
+        "40",
+        "col2 40"
+      ],
+      "labelAddress": "D33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F33",
+        "row": 33,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 40,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_41",
+      "label": "col1 #41",
+      "labelNorm": "col1 41",
+      "aliases": [
+        "col1",
+        "41",
+        "col1 41"
+      ],
+      "labelAddress": "D34",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E34",
+        "row": 34,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 41,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_41",
+      "label": "col2 #41",
+      "labelNorm": "col2 41",
+      "aliases": [
+        "col2",
+        "41",
+        "col2 41"
+      ],
+      "labelAddress": "D34",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F34",
+        "row": 34,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 41,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_42",
+      "label": "col1 #42",
+      "labelNorm": "col1 42",
+      "aliases": [
+        "col1",
+        "42",
+        "col1 42"
+      ],
+      "labelAddress": "D35",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E35",
+        "row": 35,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 42,
+        "columnRole": "col1",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "col2_42",
+      "label": "col2 #42",
+      "labelNorm": "col2 42",
+      "aliases": [
+        "col2",
+        "42",
+        "col2 42"
+      ],
+      "labelAddress": "D35",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "F35",
+        "row": 35,
+        "col": 6,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 4,
+        "index": 42,
+        "columnRole": "col2",
+        "valueCol": 6
+      }
+    },
+    {
+      "id": "col1_43",
+      "label": "col1 #43",
+      "labelNorm": "col1 43",
+      "aliases": [
+        "col1",
+        "43",
+        "col1 43"
+      ],
+      "labelAddress": "G15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H15",
+        "row": 15,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 43,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_43",
+      "label": "Aft to Forward #43",
+      "labelNorm": "aft 43",
+      "aliases": [
+        "aft",
+        "43",
+        "aft 43"
+      ],
+      "labelAddress": "G15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I15",
+        "row": 15,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 43,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_44",
+      "label": "col1 #44",
+      "labelNorm": "col1 44",
+      "aliases": [
+        "col1",
+        "44",
+        "col1 44"
+      ],
+      "labelAddress": "G16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H16",
+        "row": 16,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 44,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_44",
+      "label": "Aft to Forward #44",
+      "labelNorm": "aft 44",
+      "aliases": [
+        "aft",
+        "44",
+        "aft 44"
+      ],
+      "labelAddress": "G16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I16",
+        "row": 16,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 44,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_45",
+      "label": "col1 #45",
+      "labelNorm": "col1 45",
+      "aliases": [
+        "col1",
+        "45",
+        "col1 45"
+      ],
+      "labelAddress": "G17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H17",
+        "row": 17,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 45,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_45",
+      "label": "Aft to Forward #45",
+      "labelNorm": "aft 45",
+      "aliases": [
+        "aft",
+        "45",
+        "aft 45"
+      ],
+      "labelAddress": "G17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I17",
+        "row": 17,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 45,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_46",
+      "label": "col1 #46",
+      "labelNorm": "col1 46",
+      "aliases": [
+        "col1",
+        "46",
+        "col1 46"
+      ],
+      "labelAddress": "G18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H18",
+        "row": 18,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 46,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_46",
+      "label": "Aft to Forward #46",
+      "labelNorm": "aft 46",
+      "aliases": [
+        "aft",
+        "46",
+        "aft 46"
+      ],
+      "labelAddress": "G18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I18",
+        "row": 18,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 46,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_47",
+      "label": "col1 #47",
+      "labelNorm": "col1 47",
+      "aliases": [
+        "col1",
+        "47",
+        "col1 47"
+      ],
+      "labelAddress": "G19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H19",
+        "row": 19,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 47,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_47",
+      "label": "Aft to Forward #47",
+      "labelNorm": "aft 47",
+      "aliases": [
+        "aft",
+        "47",
+        "aft 47"
+      ],
+      "labelAddress": "G19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I19",
+        "row": 19,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 47,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_48",
+      "label": "col1 #48",
+      "labelNorm": "col1 48",
+      "aliases": [
+        "col1",
+        "48",
+        "col1 48"
+      ],
+      "labelAddress": "G20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H20",
+        "row": 20,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 48,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_48",
+      "label": "Aft to Forward #48",
+      "labelNorm": "aft 48",
+      "aliases": [
+        "aft",
+        "48",
+        "aft 48"
+      ],
+      "labelAddress": "G20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I20",
+        "row": 20,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 48,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_49",
+      "label": "col1 #49",
+      "labelNorm": "col1 49",
+      "aliases": [
+        "col1",
+        "49",
+        "col1 49"
+      ],
+      "labelAddress": "G21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H21",
+        "row": 21,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 49,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_49",
+      "label": "Aft to Forward #49",
+      "labelNorm": "aft 49",
+      "aliases": [
+        "aft",
+        "49",
+        "aft 49"
+      ],
+      "labelAddress": "G21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I21",
+        "row": 21,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 49,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_50",
+      "label": "col1 #50",
+      "labelNorm": "col1 50",
+      "aliases": [
+        "col1",
+        "50",
+        "col1 50"
+      ],
+      "labelAddress": "G22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H22",
+        "row": 22,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 50,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_50",
+      "label": "Aft to Forward #50",
+      "labelNorm": "aft 50",
+      "aliases": [
+        "aft",
+        "50",
+        "aft 50"
+      ],
+      "labelAddress": "G22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I22",
+        "row": 22,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 50,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_51",
+      "label": "col1 #51",
+      "labelNorm": "col1 51",
+      "aliases": [
+        "col1",
+        "51",
+        "col1 51"
+      ],
+      "labelAddress": "G23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H23",
+        "row": 23,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 51,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_51",
+      "label": "Aft to Forward #51",
+      "labelNorm": "aft 51",
+      "aliases": [
+        "aft",
+        "51",
+        "aft 51"
+      ],
+      "labelAddress": "G23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I23",
+        "row": 23,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 51,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_52",
+      "label": "col1 #52",
+      "labelNorm": "col1 52",
+      "aliases": [
+        "col1",
+        "52",
+        "col1 52"
+      ],
+      "labelAddress": "G24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H24",
+        "row": 24,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 52,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_52",
+      "label": "Aft to Forward #52",
+      "labelNorm": "aft 52",
+      "aliases": [
+        "aft",
+        "52",
+        "aft 52"
+      ],
+      "labelAddress": "G24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I24",
+        "row": 24,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 52,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_53",
+      "label": "col1 #53",
+      "labelNorm": "col1 53",
+      "aliases": [
+        "col1",
+        "53",
+        "col1 53"
+      ],
+      "labelAddress": "G25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H25",
+        "row": 25,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 53,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_53",
+      "label": "Aft to Forward #53",
+      "labelNorm": "aft 53",
+      "aliases": [
+        "aft",
+        "53",
+        "aft 53"
+      ],
+      "labelAddress": "G25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I25",
+        "row": 25,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 53,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "col1_54",
+      "label": "col1 #54",
+      "labelNorm": "col1 54",
+      "aliases": [
+        "col1",
+        "54",
+        "col1 54"
+      ],
+      "labelAddress": "G26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H26",
+        "row": 26,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 54,
+        "columnRole": "col1",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_54",
+      "label": "Aft to Forward #54",
+      "labelNorm": "aft 54",
+      "aliases": [
+        "aft",
+        "54",
+        "aft 54"
+      ],
+      "labelAddress": "G26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I26",
+        "row": 26,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 54,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    }
+  ],
+  "fingerprint": [
+    "shuttle tow test",
+    "hot",
+    "cold",
+    "catapult:",
+    "date:",
+    "location:",
+    "elongs:",
+    "inboard",
+    "outboard",
+    "note:",
+    "1. cold tow test max force 1,500 lbs / hot tow test max force 2,500 lbs",
+    "2. lubricate cylinders prior to test; 5 shots of lube in each direction.",
+    "forward to aft",
+    "aft to forward",
+    "1",
+    "22",
+    "43",
+    "2",
+    "23",
+    "44",
+    "3",
+    "24",
+    "45",
+    "4",
+    "25",
+    "46",
+    "5",
+    "26",
+    "47",
+    "6",
+    "27",
+    "48",
+    "7",
+    "28",
+    "49",
+    "8",
+    "29",
+    "50",
+    "9",
+    "30",
+    "51",
+    "10",
+    "31",
+    "52",
+    "11",
+    "32",
+    "53",
+    "12",
+    "33",
+    "54",
+    "13",
+    "34",
+    "14",
+    "35",
+    "15",
+    "36",
+    "16",
+    "37",
+    "17",
+    "38",
+    "18",
+    "39",
+    "19",
+    "40",
+    "20",
+    "41",
+    "21",
+    "42",
+    "x",
+    "thu feb 03 2022 19:00:00 gmt-0500 (eastern standard time)",
+    "cvn 73",
+    "1900",
+    "1500",
+    "1700",
+    "1600",
+    "1800",
+    "1400",
+    "1300",
+    "2000"
+  ],
+  "titleHints": [
+    "tow",
+    "aft",
+    "cold",
+    "force",
+    "forward",
+    "hot",
+    "max",
+    "catapult",
+    "cvn",
+    "cylinders",
+    "date",
+    "direction",
+    "each",
+    "eastern",
+    "elongs",
+    "feb"
+  ],
+  "slotLayout": {
+    "schema": "multi_grid",
+    "headerSlots": 22,
+    "measurementSlots": 108,
+    "expectedHandwrittenDataCells": 108,
+    "grids": [
+      {
+        "id": "grid_1",
+        "indexCol": 1,
+        "indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "valueColumns": [
+          {
+            "col": 2,
+            "role": "col1",
+            "header": ""
+          },
+          {
+            "col": 3,
+            "role": "aft",
+            "header": "Forward to Aft"
+          }
+        ],
+        "slotCount": 42
+      },
+      {
+        "id": "grid_2",
+        "indexCol": 4,
+        "indices": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "valueColumns": [
+          {
+            "col": 5,
+            "role": "col1",
+            "header": ""
+          },
+          {
+            "col": 6,
+            "role": "col2",
+            "header": ""
+          }
+        ],
+        "slotCount": 42
+      },
+      {
+        "id": "grid_3",
+        "indexCol": 7,
+        "indices": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ],
+        "valueColumns": [
+          {
+            "col": 8,
+            "role": "col1",
+            "header": ""
+          },
+          {
+            "col": 9,
+            "role": "aft",
+            "header": "Aft to Forward"
+          }
+        ],
+        "slotCount": 24
+      }
+    ],
+    "leftTable": {
+      "shots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "columns": [
+        "index",
+        "col1",
+        "aft"
+      ],
+      "valueColumns": [
+        "col1",
+        "aft"
+      ],
+      "indexCol": 1,
+      "excelValueCols": [
+        {
+          "role": "col1",
+          "col": 2
+        },
+        {
+          "role": "aft",
+          "col": 3
+        }
+      ]
+    },
+    "rightTable": {
+      "shots": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "columns": [
+        "index",
+        "col1",
+        "col2"
+      ],
+      "valueColumns": [
+        "col1",
+        "col2"
+      ],
+      "indexCol": 4,
+      "excelValueCols": [
+        {
+          "role": "col1",
+          "col": 5
+        },
+        {
+          "role": "col2",
+          "col": 6
+        }
+      ]
+    },
+    "dataRows": 21,
+    "hasMeasurementGrid": true
+  },
+  "grids": [
+    {
+      "indexCol": 1,
+      "startRow": 15,
+      "endRow": 35,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "valueColumns": [
+        {
+          "col": 2,
+          "role": "col1",
+          "header": ""
+        },
+        {
+          "col": 3,
+          "role": "aft",
+          "header": "Forward to Aft"
+        }
+      ],
+      "slots": [
+        {
+          "id": "col1_1",
+          "label": "col1 #1",
+          "labelNorm": "col1 1",
+          "aliases": [
+            "col1",
+            "1",
+            "col1 1"
+          ],
+          "labelAddress": "A15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B15",
+            "row": 15,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 1,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_1",
+          "label": "Forward to Aft #1",
+          "labelNorm": "aft 1",
+          "aliases": [
+            "aft",
+            "1",
+            "aft 1"
+          ],
+          "labelAddress": "A15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C15",
+            "row": 15,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 1,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_2",
+          "label": "col1 #2",
+          "labelNorm": "col1 2",
+          "aliases": [
+            "col1",
+            "2",
+            "col1 2"
+          ],
+          "labelAddress": "A16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B16",
+            "row": 16,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 2,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_2",
+          "label": "Forward to Aft #2",
+          "labelNorm": "aft 2",
+          "aliases": [
+            "aft",
+            "2",
+            "aft 2"
+          ],
+          "labelAddress": "A16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C16",
+            "row": 16,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 2,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_3",
+          "label": "col1 #3",
+          "labelNorm": "col1 3",
+          "aliases": [
+            "col1",
+            "3",
+            "col1 3"
+          ],
+          "labelAddress": "A17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B17",
+            "row": 17,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 3,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_3",
+          "label": "Forward to Aft #3",
+          "labelNorm": "aft 3",
+          "aliases": [
+            "aft",
+            "3",
+            "aft 3"
+          ],
+          "labelAddress": "A17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C17",
+            "row": 17,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 3,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_4",
+          "label": "col1 #4",
+          "labelNorm": "col1 4",
+          "aliases": [
+            "col1",
+            "4",
+            "col1 4"
+          ],
+          "labelAddress": "A18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B18",
+            "row": 18,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 4,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_4",
+          "label": "Forward to Aft #4",
+          "labelNorm": "aft 4",
+          "aliases": [
+            "aft",
+            "4",
+            "aft 4"
+          ],
+          "labelAddress": "A18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C18",
+            "row": 18,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 4,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_5",
+          "label": "col1 #5",
+          "labelNorm": "col1 5",
+          "aliases": [
+            "col1",
+            "5",
+            "col1 5"
+          ],
+          "labelAddress": "A19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B19",
+            "row": 19,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 5,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_5",
+          "label": "Forward to Aft #5",
+          "labelNorm": "aft 5",
+          "aliases": [
+            "aft",
+            "5",
+            "aft 5"
+          ],
+          "labelAddress": "A19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C19",
+            "row": 19,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 5,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_6",
+          "label": "col1 #6",
+          "labelNorm": "col1 6",
+          "aliases": [
+            "col1",
+            "6",
+            "col1 6"
+          ],
+          "labelAddress": "A20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B20",
+            "row": 20,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 6,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_6",
+          "label": "Forward to Aft #6",
+          "labelNorm": "aft 6",
+          "aliases": [
+            "aft",
+            "6",
+            "aft 6"
+          ],
+          "labelAddress": "A20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C20",
+            "row": 20,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 6,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_7",
+          "label": "col1 #7",
+          "labelNorm": "col1 7",
+          "aliases": [
+            "col1",
+            "7",
+            "col1 7"
+          ],
+          "labelAddress": "A21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B21",
+            "row": 21,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 7,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_7",
+          "label": "Forward to Aft #7",
+          "labelNorm": "aft 7",
+          "aliases": [
+            "aft",
+            "7",
+            "aft 7"
+          ],
+          "labelAddress": "A21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C21",
+            "row": 21,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 7,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_8",
+          "label": "col1 #8",
+          "labelNorm": "col1 8",
+          "aliases": [
+            "col1",
+            "8",
+            "col1 8"
+          ],
+          "labelAddress": "A22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B22",
+            "row": 22,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 8,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_8",
+          "label": "Forward to Aft #8",
+          "labelNorm": "aft 8",
+          "aliases": [
+            "aft",
+            "8",
+            "aft 8"
+          ],
+          "labelAddress": "A22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C22",
+            "row": 22,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 8,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_9",
+          "label": "col1 #9",
+          "labelNorm": "col1 9",
+          "aliases": [
+            "col1",
+            "9",
+            "col1 9"
+          ],
+          "labelAddress": "A23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B23",
+            "row": 23,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 9,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_9",
+          "label": "Forward to Aft #9",
+          "labelNorm": "aft 9",
+          "aliases": [
+            "aft",
+            "9",
+            "aft 9"
+          ],
+          "labelAddress": "A23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C23",
+            "row": 23,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 9,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_10",
+          "label": "col1 #10",
+          "labelNorm": "col1 10",
+          "aliases": [
+            "col1",
+            "10",
+            "col1 10"
+          ],
+          "labelAddress": "A24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B24",
+            "row": 24,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 10,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_10",
+          "label": "Forward to Aft #10",
+          "labelNorm": "aft 10",
+          "aliases": [
+            "aft",
+            "10",
+            "aft 10"
+          ],
+          "labelAddress": "A24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C24",
+            "row": 24,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 10,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_11",
+          "label": "col1 #11",
+          "labelNorm": "col1 11",
+          "aliases": [
+            "col1",
+            "11",
+            "col1 11"
+          ],
+          "labelAddress": "A25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B25",
+            "row": 25,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 11,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_11",
+          "label": "Forward to Aft #11",
+          "labelNorm": "aft 11",
+          "aliases": [
+            "aft",
+            "11",
+            "aft 11"
+          ],
+          "labelAddress": "A25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C25",
+            "row": 25,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 11,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_12",
+          "label": "col1 #12",
+          "labelNorm": "col1 12",
+          "aliases": [
+            "col1",
+            "12",
+            "col1 12"
+          ],
+          "labelAddress": "A26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B26",
+            "row": 26,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 12,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_12",
+          "label": "Forward to Aft #12",
+          "labelNorm": "aft 12",
+          "aliases": [
+            "aft",
+            "12",
+            "aft 12"
+          ],
+          "labelAddress": "A26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C26",
+            "row": 26,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 12,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_13",
+          "label": "col1 #13",
+          "labelNorm": "col1 13",
+          "aliases": [
+            "col1",
+            "13",
+            "col1 13"
+          ],
+          "labelAddress": "A27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B27",
+            "row": 27,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 13,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_13",
+          "label": "Forward to Aft #13",
+          "labelNorm": "aft 13",
+          "aliases": [
+            "aft",
+            "13",
+            "aft 13"
+          ],
+          "labelAddress": "A27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C27",
+            "row": 27,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 13,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_14",
+          "label": "col1 #14",
+          "labelNorm": "col1 14",
+          "aliases": [
+            "col1",
+            "14",
+            "col1 14"
+          ],
+          "labelAddress": "A28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B28",
+            "row": 28,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 14,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_14",
+          "label": "Forward to Aft #14",
+          "labelNorm": "aft 14",
+          "aliases": [
+            "aft",
+            "14",
+            "aft 14"
+          ],
+          "labelAddress": "A28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C28",
+            "row": 28,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 14,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_15",
+          "label": "col1 #15",
+          "labelNorm": "col1 15",
+          "aliases": [
+            "col1",
+            "15",
+            "col1 15"
+          ],
+          "labelAddress": "A29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B29",
+            "row": 29,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 15,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_15",
+          "label": "Forward to Aft #15",
+          "labelNorm": "aft 15",
+          "aliases": [
+            "aft",
+            "15",
+            "aft 15"
+          ],
+          "labelAddress": "A29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C29",
+            "row": 29,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 15,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_16",
+          "label": "col1 #16",
+          "labelNorm": "col1 16",
+          "aliases": [
+            "col1",
+            "16",
+            "col1 16"
+          ],
+          "labelAddress": "A30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B30",
+            "row": 30,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 16,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_16",
+          "label": "Forward to Aft #16",
+          "labelNorm": "aft 16",
+          "aliases": [
+            "aft",
+            "16",
+            "aft 16"
+          ],
+          "labelAddress": "A30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C30",
+            "row": 30,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 16,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_17",
+          "label": "col1 #17",
+          "labelNorm": "col1 17",
+          "aliases": [
+            "col1",
+            "17",
+            "col1 17"
+          ],
+          "labelAddress": "A31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B31",
+            "row": 31,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 17,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_17",
+          "label": "Forward to Aft #17",
+          "labelNorm": "aft 17",
+          "aliases": [
+            "aft",
+            "17",
+            "aft 17"
+          ],
+          "labelAddress": "A31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C31",
+            "row": 31,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 17,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_18",
+          "label": "col1 #18",
+          "labelNorm": "col1 18",
+          "aliases": [
+            "col1",
+            "18",
+            "col1 18"
+          ],
+          "labelAddress": "A32",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B32",
+            "row": 32,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 18,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_18",
+          "label": "Forward to Aft #18",
+          "labelNorm": "aft 18",
+          "aliases": [
+            "aft",
+            "18",
+            "aft 18"
+          ],
+          "labelAddress": "A32",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C32",
+            "row": 32,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 18,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_19",
+          "label": "col1 #19",
+          "labelNorm": "col1 19",
+          "aliases": [
+            "col1",
+            "19",
+            "col1 19"
+          ],
+          "labelAddress": "A33",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B33",
+            "row": 33,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 19,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_19",
+          "label": "Forward to Aft #19",
+          "labelNorm": "aft 19",
+          "aliases": [
+            "aft",
+            "19",
+            "aft 19"
+          ],
+          "labelAddress": "A33",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C33",
+            "row": 33,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 19,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_20",
+          "label": "col1 #20",
+          "labelNorm": "col1 20",
+          "aliases": [
+            "col1",
+            "20",
+            "col1 20"
+          ],
+          "labelAddress": "A34",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B34",
+            "row": 34,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 20,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_20",
+          "label": "Forward to Aft #20",
+          "labelNorm": "aft 20",
+          "aliases": [
+            "aft",
+            "20",
+            "aft 20"
+          ],
+          "labelAddress": "A34",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C34",
+            "row": 34,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 20,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        },
+        {
+          "id": "col1_21",
+          "label": "col1 #21",
+          "labelNorm": "col1 21",
+          "aliases": [
+            "col1",
+            "21",
+            "col1 21"
+          ],
+          "labelAddress": "A35",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "B35",
+            "row": 35,
+            "col": 2,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 21,
+            "columnRole": "col1",
+            "valueCol": 2
+          }
+        },
+        {
+          "id": "aft_21",
+          "label": "Forward to Aft #21",
+          "labelNorm": "aft 21",
+          "aliases": [
+            "aft",
+            "21",
+            "aft 21"
+          ],
+          "labelAddress": "A35",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "C35",
+            "row": 35,
+            "col": 3,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 1,
+            "index": 21,
+            "columnRole": "aft",
+            "valueCol": 3
+          }
+        }
+      ]
+    },
+    {
+      "indexCol": 4,
+      "startRow": 15,
+      "endRow": 35,
+      "indices": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "valueColumns": [
+        {
+          "col": 5,
+          "role": "col1",
+          "header": ""
+        },
+        {
+          "col": 6,
+          "role": "col2",
+          "header": ""
+        }
+      ],
+      "slots": [
+        {
+          "id": "col1_22",
+          "label": "col1 #22",
+          "labelNorm": "col1 22",
+          "aliases": [
+            "col1",
+            "22",
+            "col1 22"
+          ],
+          "labelAddress": "D15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E15",
+            "row": 15,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 22,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_22",
+          "label": "col2 #22",
+          "labelNorm": "col2 22",
+          "aliases": [
+            "col2",
+            "22",
+            "col2 22"
+          ],
+          "labelAddress": "D15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F15",
+            "row": 15,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 22,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_23",
+          "label": "col1 #23",
+          "labelNorm": "col1 23",
+          "aliases": [
+            "col1",
+            "23",
+            "col1 23"
+          ],
+          "labelAddress": "D16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E16",
+            "row": 16,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 23,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_23",
+          "label": "col2 #23",
+          "labelNorm": "col2 23",
+          "aliases": [
+            "col2",
+            "23",
+            "col2 23"
+          ],
+          "labelAddress": "D16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F16",
+            "row": 16,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 23,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_24",
+          "label": "col1 #24",
+          "labelNorm": "col1 24",
+          "aliases": [
+            "col1",
+            "24",
+            "col1 24"
+          ],
+          "labelAddress": "D17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E17",
+            "row": 17,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 24,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_24",
+          "label": "col2 #24",
+          "labelNorm": "col2 24",
+          "aliases": [
+            "col2",
+            "24",
+            "col2 24"
+          ],
+          "labelAddress": "D17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F17",
+            "row": 17,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 24,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_25",
+          "label": "col1 #25",
+          "labelNorm": "col1 25",
+          "aliases": [
+            "col1",
+            "25",
+            "col1 25"
+          ],
+          "labelAddress": "D18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E18",
+            "row": 18,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 25,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_25",
+          "label": "col2 #25",
+          "labelNorm": "col2 25",
+          "aliases": [
+            "col2",
+            "25",
+            "col2 25"
+          ],
+          "labelAddress": "D18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F18",
+            "row": 18,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 25,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_26",
+          "label": "col1 #26",
+          "labelNorm": "col1 26",
+          "aliases": [
+            "col1",
+            "26",
+            "col1 26"
+          ],
+          "labelAddress": "D19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E19",
+            "row": 19,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 26,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_26",
+          "label": "col2 #26",
+          "labelNorm": "col2 26",
+          "aliases": [
+            "col2",
+            "26",
+            "col2 26"
+          ],
+          "labelAddress": "D19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F19",
+            "row": 19,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 26,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_27",
+          "label": "col1 #27",
+          "labelNorm": "col1 27",
+          "aliases": [
+            "col1",
+            "27",
+            "col1 27"
+          ],
+          "labelAddress": "D20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E20",
+            "row": 20,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 27,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_27",
+          "label": "col2 #27",
+          "labelNorm": "col2 27",
+          "aliases": [
+            "col2",
+            "27",
+            "col2 27"
+          ],
+          "labelAddress": "D20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F20",
+            "row": 20,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 27,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_28",
+          "label": "col1 #28",
+          "labelNorm": "col1 28",
+          "aliases": [
+            "col1",
+            "28",
+            "col1 28"
+          ],
+          "labelAddress": "D21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E21",
+            "row": 21,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 28,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_28",
+          "label": "col2 #28",
+          "labelNorm": "col2 28",
+          "aliases": [
+            "col2",
+            "28",
+            "col2 28"
+          ],
+          "labelAddress": "D21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F21",
+            "row": 21,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 28,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_29",
+          "label": "col1 #29",
+          "labelNorm": "col1 29",
+          "aliases": [
+            "col1",
+            "29",
+            "col1 29"
+          ],
+          "labelAddress": "D22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E22",
+            "row": 22,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 29,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_29",
+          "label": "col2 #29",
+          "labelNorm": "col2 29",
+          "aliases": [
+            "col2",
+            "29",
+            "col2 29"
+          ],
+          "labelAddress": "D22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F22",
+            "row": 22,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 29,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_30",
+          "label": "col1 #30",
+          "labelNorm": "col1 30",
+          "aliases": [
+            "col1",
+            "30",
+            "col1 30"
+          ],
+          "labelAddress": "D23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E23",
+            "row": 23,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 30,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_30",
+          "label": "col2 #30",
+          "labelNorm": "col2 30",
+          "aliases": [
+            "col2",
+            "30",
+            "col2 30"
+          ],
+          "labelAddress": "D23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F23",
+            "row": 23,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 30,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_31",
+          "label": "col1 #31",
+          "labelNorm": "col1 31",
+          "aliases": [
+            "col1",
+            "31",
+            "col1 31"
+          ],
+          "labelAddress": "D24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E24",
+            "row": 24,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 31,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_31",
+          "label": "col2 #31",
+          "labelNorm": "col2 31",
+          "aliases": [
+            "col2",
+            "31",
+            "col2 31"
+          ],
+          "labelAddress": "D24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F24",
+            "row": 24,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 31,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_32",
+          "label": "col1 #32",
+          "labelNorm": "col1 32",
+          "aliases": [
+            "col1",
+            "32",
+            "col1 32"
+          ],
+          "labelAddress": "D25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E25",
+            "row": 25,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 32,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_32",
+          "label": "col2 #32",
+          "labelNorm": "col2 32",
+          "aliases": [
+            "col2",
+            "32",
+            "col2 32"
+          ],
+          "labelAddress": "D25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F25",
+            "row": 25,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 32,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_33",
+          "label": "col1 #33",
+          "labelNorm": "col1 33",
+          "aliases": [
+            "col1",
+            "33",
+            "col1 33"
+          ],
+          "labelAddress": "D26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E26",
+            "row": 26,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 33,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_33",
+          "label": "col2 #33",
+          "labelNorm": "col2 33",
+          "aliases": [
+            "col2",
+            "33",
+            "col2 33"
+          ],
+          "labelAddress": "D26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F26",
+            "row": 26,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 33,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_34",
+          "label": "col1 #34",
+          "labelNorm": "col1 34",
+          "aliases": [
+            "col1",
+            "34",
+            "col1 34"
+          ],
+          "labelAddress": "D27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E27",
+            "row": 27,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 34,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_34",
+          "label": "col2 #34",
+          "labelNorm": "col2 34",
+          "aliases": [
+            "col2",
+            "34",
+            "col2 34"
+          ],
+          "labelAddress": "D27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F27",
+            "row": 27,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 34,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_35",
+          "label": "col1 #35",
+          "labelNorm": "col1 35",
+          "aliases": [
+            "col1",
+            "35",
+            "col1 35"
+          ],
+          "labelAddress": "D28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E28",
+            "row": 28,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 35,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_35",
+          "label": "col2 #35",
+          "labelNorm": "col2 35",
+          "aliases": [
+            "col2",
+            "35",
+            "col2 35"
+          ],
+          "labelAddress": "D28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F28",
+            "row": 28,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 35,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_36",
+          "label": "col1 #36",
+          "labelNorm": "col1 36",
+          "aliases": [
+            "col1",
+            "36",
+            "col1 36"
+          ],
+          "labelAddress": "D29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E29",
+            "row": 29,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 36,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_36",
+          "label": "col2 #36",
+          "labelNorm": "col2 36",
+          "aliases": [
+            "col2",
+            "36",
+            "col2 36"
+          ],
+          "labelAddress": "D29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F29",
+            "row": 29,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 36,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_37",
+          "label": "col1 #37",
+          "labelNorm": "col1 37",
+          "aliases": [
+            "col1",
+            "37",
+            "col1 37"
+          ],
+          "labelAddress": "D30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E30",
+            "row": 30,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 37,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_37",
+          "label": "col2 #37",
+          "labelNorm": "col2 37",
+          "aliases": [
+            "col2",
+            "37",
+            "col2 37"
+          ],
+          "labelAddress": "D30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F30",
+            "row": 30,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 37,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_38",
+          "label": "col1 #38",
+          "labelNorm": "col1 38",
+          "aliases": [
+            "col1",
+            "38",
+            "col1 38"
+          ],
+          "labelAddress": "D31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E31",
+            "row": 31,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 38,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_38",
+          "label": "col2 #38",
+          "labelNorm": "col2 38",
+          "aliases": [
+            "col2",
+            "38",
+            "col2 38"
+          ],
+          "labelAddress": "D31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F31",
+            "row": 31,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 38,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_39",
+          "label": "col1 #39",
+          "labelNorm": "col1 39",
+          "aliases": [
+            "col1",
+            "39",
+            "col1 39"
+          ],
+          "labelAddress": "D32",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E32",
+            "row": 32,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 39,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_39",
+          "label": "col2 #39",
+          "labelNorm": "col2 39",
+          "aliases": [
+            "col2",
+            "39",
+            "col2 39"
+          ],
+          "labelAddress": "D32",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F32",
+            "row": 32,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 39,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_40",
+          "label": "col1 #40",
+          "labelNorm": "col1 40",
+          "aliases": [
+            "col1",
+            "40",
+            "col1 40"
+          ],
+          "labelAddress": "D33",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E33",
+            "row": 33,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 40,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_40",
+          "label": "col2 #40",
+          "labelNorm": "col2 40",
+          "aliases": [
+            "col2",
+            "40",
+            "col2 40"
+          ],
+          "labelAddress": "D33",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F33",
+            "row": 33,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 40,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_41",
+          "label": "col1 #41",
+          "labelNorm": "col1 41",
+          "aliases": [
+            "col1",
+            "41",
+            "col1 41"
+          ],
+          "labelAddress": "D34",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E34",
+            "row": 34,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 41,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_41",
+          "label": "col2 #41",
+          "labelNorm": "col2 41",
+          "aliases": [
+            "col2",
+            "41",
+            "col2 41"
+          ],
+          "labelAddress": "D34",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F34",
+            "row": 34,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 41,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        },
+        {
+          "id": "col1_42",
+          "label": "col1 #42",
+          "labelNorm": "col1 42",
+          "aliases": [
+            "col1",
+            "42",
+            "col1 42"
+          ],
+          "labelAddress": "D35",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E35",
+            "row": 35,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 42,
+            "columnRole": "col1",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "col2_42",
+          "label": "col2 #42",
+          "labelNorm": "col2 42",
+          "aliases": [
+            "col2",
+            "42",
+            "col2 42"
+          ],
+          "labelAddress": "D35",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "F35",
+            "row": 35,
+            "col": 6,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 4,
+            "index": 42,
+            "columnRole": "col2",
+            "valueCol": 6
+          }
+        }
+      ]
+    },
+    {
+      "indexCol": 7,
+      "startRow": 15,
+      "endRow": 26,
+      "indices": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "valueColumns": [
+        {
+          "col": 8,
+          "role": "col1",
+          "header": ""
+        },
+        {
+          "col": 9,
+          "role": "aft",
+          "header": "Aft to Forward"
+        }
+      ],
+      "slots": [
+        {
+          "id": "col1_43",
+          "label": "col1 #43",
+          "labelNorm": "col1 43",
+          "aliases": [
+            "col1",
+            "43",
+            "col1 43"
+          ],
+          "labelAddress": "G15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H15",
+            "row": 15,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 43,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_43",
+          "label": "Aft to Forward #43",
+          "labelNorm": "aft 43",
+          "aliases": [
+            "aft",
+            "43",
+            "aft 43"
+          ],
+          "labelAddress": "G15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I15",
+            "row": 15,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 43,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_44",
+          "label": "col1 #44",
+          "labelNorm": "col1 44",
+          "aliases": [
+            "col1",
+            "44",
+            "col1 44"
+          ],
+          "labelAddress": "G16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H16",
+            "row": 16,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 44,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_44",
+          "label": "Aft to Forward #44",
+          "labelNorm": "aft 44",
+          "aliases": [
+            "aft",
+            "44",
+            "aft 44"
+          ],
+          "labelAddress": "G16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I16",
+            "row": 16,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 44,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_45",
+          "label": "col1 #45",
+          "labelNorm": "col1 45",
+          "aliases": [
+            "col1",
+            "45",
+            "col1 45"
+          ],
+          "labelAddress": "G17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H17",
+            "row": 17,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 45,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_45",
+          "label": "Aft to Forward #45",
+          "labelNorm": "aft 45",
+          "aliases": [
+            "aft",
+            "45",
+            "aft 45"
+          ],
+          "labelAddress": "G17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I17",
+            "row": 17,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 45,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_46",
+          "label": "col1 #46",
+          "labelNorm": "col1 46",
+          "aliases": [
+            "col1",
+            "46",
+            "col1 46"
+          ],
+          "labelAddress": "G18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H18",
+            "row": 18,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 46,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_46",
+          "label": "Aft to Forward #46",
+          "labelNorm": "aft 46",
+          "aliases": [
+            "aft",
+            "46",
+            "aft 46"
+          ],
+          "labelAddress": "G18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I18",
+            "row": 18,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 46,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_47",
+          "label": "col1 #47",
+          "labelNorm": "col1 47",
+          "aliases": [
+            "col1",
+            "47",
+            "col1 47"
+          ],
+          "labelAddress": "G19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H19",
+            "row": 19,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 47,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_47",
+          "label": "Aft to Forward #47",
+          "labelNorm": "aft 47",
+          "aliases": [
+            "aft",
+            "47",
+            "aft 47"
+          ],
+          "labelAddress": "G19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I19",
+            "row": 19,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 47,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_48",
+          "label": "col1 #48",
+          "labelNorm": "col1 48",
+          "aliases": [
+            "col1",
+            "48",
+            "col1 48"
+          ],
+          "labelAddress": "G20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H20",
+            "row": 20,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 48,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_48",
+          "label": "Aft to Forward #48",
+          "labelNorm": "aft 48",
+          "aliases": [
+            "aft",
+            "48",
+            "aft 48"
+          ],
+          "labelAddress": "G20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I20",
+            "row": 20,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 48,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_49",
+          "label": "col1 #49",
+          "labelNorm": "col1 49",
+          "aliases": [
+            "col1",
+            "49",
+            "col1 49"
+          ],
+          "labelAddress": "G21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H21",
+            "row": 21,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 49,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_49",
+          "label": "Aft to Forward #49",
+          "labelNorm": "aft 49",
+          "aliases": [
+            "aft",
+            "49",
+            "aft 49"
+          ],
+          "labelAddress": "G21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I21",
+            "row": 21,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 49,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_50",
+          "label": "col1 #50",
+          "labelNorm": "col1 50",
+          "aliases": [
+            "col1",
+            "50",
+            "col1 50"
+          ],
+          "labelAddress": "G22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H22",
+            "row": 22,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 50,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_50",
+          "label": "Aft to Forward #50",
+          "labelNorm": "aft 50",
+          "aliases": [
+            "aft",
+            "50",
+            "aft 50"
+          ],
+          "labelAddress": "G22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I22",
+            "row": 22,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 50,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_51",
+          "label": "col1 #51",
+          "labelNorm": "col1 51",
+          "aliases": [
+            "col1",
+            "51",
+            "col1 51"
+          ],
+          "labelAddress": "G23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H23",
+            "row": 23,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 51,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_51",
+          "label": "Aft to Forward #51",
+          "labelNorm": "aft 51",
+          "aliases": [
+            "aft",
+            "51",
+            "aft 51"
+          ],
+          "labelAddress": "G23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I23",
+            "row": 23,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 51,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_52",
+          "label": "col1 #52",
+          "labelNorm": "col1 52",
+          "aliases": [
+            "col1",
+            "52",
+            "col1 52"
+          ],
+          "labelAddress": "G24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H24",
+            "row": 24,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 52,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_52",
+          "label": "Aft to Forward #52",
+          "labelNorm": "aft 52",
+          "aliases": [
+            "aft",
+            "52",
+            "aft 52"
+          ],
+          "labelAddress": "G24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I24",
+            "row": 24,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 52,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_53",
+          "label": "col1 #53",
+          "labelNorm": "col1 53",
+          "aliases": [
+            "col1",
+            "53",
+            "col1 53"
+          ],
+          "labelAddress": "G25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H25",
+            "row": 25,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 53,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_53",
+          "label": "Aft to Forward #53",
+          "labelNorm": "aft 53",
+          "aliases": [
+            "aft",
+            "53",
+            "aft 53"
+          ],
+          "labelAddress": "G25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I25",
+            "row": 25,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 53,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "col1_54",
+          "label": "col1 #54",
+          "labelNorm": "col1 54",
+          "aliases": [
+            "col1",
+            "54",
+            "col1 54"
+          ],
+          "labelAddress": "G26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H26",
+            "row": 26,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 54,
+            "columnRole": "col1",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_54",
+          "label": "Aft to Forward #54",
+          "labelNorm": "aft 54",
+          "aliases": [
+            "aft",
+            "54",
+            "aft 54"
+          ],
+          "labelAddress": "G26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I26",
+            "row": 26,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 54,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        }
+      ]
+    }
+  ],
+  "analyzer": "structural",
+  "ai": {
+    "used": true,
+    "confidence": 0.95,
+    "summary": "This template schema describes a complex test procedure involving shuttle towing, temperature conditions, catapult settings, measurements, and directional forces.",
+    "provider": "ollama",
+    "model": "gemma4:e2b"
+  },
+  "sourcePath": "C:\\Users\\thind\\OneDrive\\Desktop\\HACKATHON\\Templates\\Hot Tow WRONG Template empty.xlsx",
+  "version": 2,
+  "templateFile": "Hot Tow WRONG Template empty.xlsx",
+  "templateHash": "ba54410e8155e81e800c69fa17310d3ac9bea6b3853bc66274bf08f8a928260b",
+  "analyzedAt": "2026-11-04T23:09:08.935Z"
+}

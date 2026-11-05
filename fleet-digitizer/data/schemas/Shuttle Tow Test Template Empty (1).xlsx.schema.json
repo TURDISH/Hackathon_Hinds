@@ -1,0 +1,6360 @@
+{
+  "type": "xlsx",
+  "sheetName": "Sheet1",
+  "labels": [
+    {
+      "text": "Shuttle Tow Test",
+      "norm": "shuttle tow test",
+      "address": "J1",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "text": "Catapult No:",
+      "norm": "catapult no",
+      "address": "B2",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "text": "Date:",
+      "norm": "date",
+      "address": "E2",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "text": "Periodicity Code:",
+      "norm": "periodicity code",
+      "address": "H2",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "text": "JSN:",
+      "norm": "jsn",
+      "address": "B3",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "text": "Shot No.:",
+      "norm": "shot no",
+      "address": "E3",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "text": "Shot Since Last Insp.",
+      "norm": "shot since last insp",
+      "address": "I3",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "text": "CDI:",
+      "norm": "cdi",
+      "address": "C32",
+      "row": 32,
+      "col": 3
+    },
+    {
+      "text": "QA Inspector:",
+      "norm": "qa inspector",
+      "address": "G32",
+      "row": 32,
+      "col": 7
+    },
+    {
+      "text": "Cat Chief:",
+      "norm": "cat chief",
+      "address": "C33",
+      "row": 33,
+      "col": 3
+    },
+    {
+      "text": "Maint Officer/CPO:",
+      "norm": "maint officer cpo",
+      "address": "G33",
+      "row": 33,
+      "col": 7
+    }
+  ],
+  "fields": [
+    {
+      "id": "shuttle_tow_test",
+      "label": "Shuttle Tow Test",
+      "labelNorm": "shuttle tow test",
+      "aliases": [
+        "shuttle tow test",
+        "shuttle",
+        "tow",
+        "test",
+        "Shuttle Tow Test"
+      ],
+      "labelAddress": "J1",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "K1",
+        "row": 1,
+        "col": 11,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "text",
+      "aiNotes": "Header field for the test title."
+    },
+    {
+      "id": "catapult_no",
+      "label": "Catapult No:",
+      "labelNorm": "catapult no",
+      "aliases": [
+        "catapult no",
+        "catapult",
+        "Catapult No:"
+      ],
+      "labelAddress": "B2",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D2",
+        "row": 2,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "small_int",
+      "aiNotes": "Identifier for the catapult."
+    },
+    {
+      "id": "date",
+      "label": "Date:",
+      "labelNorm": "date",
+      "aliases": [
+        "date",
+        "Date:"
+      ],
+      "labelAddress": "E2",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "G2",
+        "row": 2,
+        "col": 7,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "date",
+      "aiNotes": "Date of the test."
+    },
+    {
+      "id": "periodicity_code",
+      "label": "Periodicity Code:",
+      "labelNorm": "periodicity code",
+      "aliases": [
+        "periodicity code",
+        "periodicity",
+        "code",
+        "Periodicity Code:"
+      ],
+      "labelAddress": "H2",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J2",
+        "row": 2,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "id_code",
+      "aiNotes": "Code related to the test periodicity."
+    },
+    {
+      "id": "jsn",
+      "label": "JSN:",
+      "labelNorm": "jsn",
+      "aliases": [
+        "jsn",
+        "JSN:"
+      ],
+      "labelAddress": "B3",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D3",
+        "row": 3,
+        "col": 4,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "id_code",
+      "aiNotes": "Job Serial Number."
+    },
+    {
+      "id": "shot_no",
+      "label": "Shot No.:",
+      "labelNorm": "shot no",
+      "aliases": [
+        "shot no.",
+        "shot no",
+        "shot",
+        "Shot No.:"
+      ],
+      "labelAddress": "E3",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "G3",
+        "row": 3,
+        "col": 7,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "small_int",
+      "aiNotes": "The specific shot number."
+    },
+    {
+      "id": "shot_since_last_insp",
+      "label": "Shot Since Last Insp.",
+      "labelNorm": "shot since last insp",
+      "aliases": [
+        "shot since last insp.",
+        "shot since last insp",
+        "shot",
+        "since",
+        "last",
+        "insp",
+        "Shot Since Last Insp."
+      ],
+      "labelAddress": "I3",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "J3",
+        "row": 3,
+        "col": 10,
+        "strategy": "right_of_label"
+      },
+      "kind": "header",
+      "fieldType": "small_int",
+      "aiNotes": "Number of shots since the last inspection."
+    },
+    {
+      "id": "cdi",
+      "label": "CDI:",
+      "labelNorm": "cdi",
+      "aliases": [
+        "cdi",
+        "CDI:"
+      ],
+      "labelAddress": "C32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E32",
+        "row": 32,
+        "col": 5,
+        "strategy": "right_of_label"
+      },
+      "kind": "signature_or_meta",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Signature or initials for CDI."
+    },
+    {
+      "id": "qa_inspector",
+      "label": "QA Inspector:",
+      "labelNorm": "qa inspector",
+      "aliases": [
+        "qa inspector",
+        "inspector",
+        "QA Inspector:"
+      ],
+      "labelAddress": "G32",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I32",
+        "row": 32,
+        "col": 9,
+        "strategy": "right_of_label"
+      },
+      "kind": "signature_or_meta",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Signature or initials for the QA Inspector."
+    },
+    {
+      "id": "cat_chief",
+      "label": "Cat Chief:",
+      "labelNorm": "cat chief",
+      "aliases": [
+        "cat chief",
+        "cat",
+        "chief",
+        "Cat Chief:"
+      ],
+      "labelAddress": "C33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E33",
+        "row": 33,
+        "col": 5,
+        "strategy": "right_of_label"
+      },
+      "kind": "signature_or_meta",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Signature or initials for the Cat Chief."
+    },
+    {
+      "id": "maint_officer_cpo",
+      "label": "Maint Officer/CPO:",
+      "labelNorm": "maint officer cpo",
+      "aliases": [
+        "maint officer/cpo",
+        "maint officer cpo",
+        "maint",
+        "officer",
+        "cpo",
+        "Maint Officer/CPO:"
+      ],
+      "labelAddress": "G33",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I33",
+        "row": 33,
+        "col": 9,
+        "strategy": "right_of_label"
+      },
+      "kind": "signature_or_meta",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Signature or initials for the Maintenance Officer/CPO."
+    },
+    {
+      "id": "fwd_1",
+      "label": "FWD (lb) #1",
+      "labelNorm": "fwd 1",
+      "aliases": [
+        "fwd",
+        "1",
+        "fwd 1",
+        "FWD (lb) #1"
+      ],
+      "labelAddress": "C5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D5",
+        "row": 5,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 1,
+        "columnRole": "fwd",
+        "valueCol": 4
+      },
+      "aiNotes": "Forward force measurement for shot 1."
+    },
+    {
+      "id": "aft_1",
+      "label": "AFT (lb) #1",
+      "labelNorm": "aft 1",
+      "aliases": [
+        "aft",
+        "1",
+        "aft 1",
+        "AFT (lb) #1"
+      ],
+      "labelAddress": "C5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E5",
+        "row": 5,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 1,
+        "columnRole": "aft",
+        "valueCol": 5
+      },
+      "aiNotes": "Aft force measurement for shot 1."
+    },
+    {
+      "id": "fwd_2",
+      "label": "FWD (lb) #2",
+      "labelNorm": "fwd 2",
+      "aliases": [
+        "fwd",
+        "2",
+        "fwd 2",
+        "FWD (lb) #2"
+      ],
+      "labelAddress": "C6",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D6",
+        "row": 6,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 2,
+        "columnRole": "fwd",
+        "valueCol": 4
+      },
+      "aiNotes": "Forward force measurement for shot 2."
+    },
+    {
+      "id": "aft_2",
+      "label": "AFT (lb) #2",
+      "labelNorm": "aft 2",
+      "aliases": [
+        "aft",
+        "2",
+        "aft 2",
+        "AFT (lb) #2"
+      ],
+      "labelAddress": "C6",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E6",
+        "row": 6,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 2,
+        "columnRole": "aft",
+        "valueCol": 5
+      },
+      "aiNotes": "Aft force measurement for shot 2."
+    },
+    {
+      "id": "fwd_3",
+      "label": "FWD (lb) #3",
+      "labelNorm": "fwd 3",
+      "aliases": [
+        "fwd",
+        "3",
+        "fwd 3",
+        "FWD (lb) #3"
+      ],
+      "labelAddress": "C7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D7",
+        "row": 7,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 3,
+        "columnRole": "fwd",
+        "valueCol": 4
+      },
+      "aiNotes": "Forward force measurement for shot 3."
+    },
+    {
+      "id": "aft_3",
+      "label": "AFT (lb) #3",
+      "labelNorm": "aft 3",
+      "aliases": [
+        "aft",
+        "3",
+        "aft 3",
+        "AFT (lb) #3"
+      ],
+      "labelAddress": "C7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E7",
+        "row": 7,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 3,
+        "columnRole": "aft",
+        "valueCol": 5
+      },
+      "aiNotes": "Aft force measurement for shot 3."
+    },
+    {
+      "id": "fwd_4",
+      "label": "FWD (lb) #4",
+      "labelNorm": "fwd 4",
+      "aliases": [
+        "fwd",
+        "4",
+        "fwd 4",
+        "FWD (lb) #4"
+      ],
+      "labelAddress": "C8",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D8",
+        "row": 8,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 4,
+        "columnRole": "fwd",
+        "valueCol": 4
+      },
+      "aiNotes": "Forward force measurement for shot 4."
+    },
+    {
+      "id": "aft_4",
+      "label": "AFT (lb) #4",
+      "labelNorm": "aft 4",
+      "aliases": [
+        "aft",
+        "4",
+        "aft 4",
+        "AFT (lb) #4"
+      ],
+      "labelAddress": "C8",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E8",
+        "row": 8,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 4,
+        "columnRole": "aft",
+        "valueCol": 5
+      },
+      "aiNotes": "Aft force measurement for shot 4."
+    },
+    {
+      "id": "fwd_5",
+      "label": "FWD (lb) #5",
+      "labelNorm": "fwd 5",
+      "aliases": [
+        "fwd",
+        "5",
+        "fwd 5"
+      ],
+      "labelAddress": "C9",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D9",
+        "row": 9,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 5,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_5",
+      "label": "AFT (lb) #5",
+      "labelNorm": "aft 5",
+      "aliases": [
+        "aft",
+        "5",
+        "aft 5"
+      ],
+      "labelAddress": "C9",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E9",
+        "row": 9,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 5,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_6",
+      "label": "FWD (lb) #6",
+      "labelNorm": "fwd 6",
+      "aliases": [
+        "fwd",
+        "6",
+        "fwd 6"
+      ],
+      "labelAddress": "C10",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D10",
+        "row": 10,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 6,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_6",
+      "label": "AFT (lb) #6",
+      "labelNorm": "aft 6",
+      "aliases": [
+        "aft",
+        "6",
+        "aft 6"
+      ],
+      "labelAddress": "C10",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E10",
+        "row": 10,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 6,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_7",
+      "label": "FWD (lb) #7",
+      "labelNorm": "fwd 7",
+      "aliases": [
+        "fwd",
+        "7",
+        "fwd 7"
+      ],
+      "labelAddress": "C11",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D11",
+        "row": 11,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 7,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_7",
+      "label": "AFT (lb) #7",
+      "labelNorm": "aft 7",
+      "aliases": [
+        "aft",
+        "7",
+        "aft 7"
+      ],
+      "labelAddress": "C11",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E11",
+        "row": 11,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 7,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_8",
+      "label": "FWD (lb) #8",
+      "labelNorm": "fwd 8",
+      "aliases": [
+        "fwd",
+        "8",
+        "fwd 8"
+      ],
+      "labelAddress": "C12",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D12",
+        "row": 12,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 8,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_8",
+      "label": "AFT (lb) #8",
+      "labelNorm": "aft 8",
+      "aliases": [
+        "aft",
+        "8",
+        "aft 8"
+      ],
+      "labelAddress": "C12",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E12",
+        "row": 12,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 8,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_9",
+      "label": "FWD (lb) #9",
+      "labelNorm": "fwd 9",
+      "aliases": [
+        "fwd",
+        "9",
+        "fwd 9"
+      ],
+      "labelAddress": "C13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D13",
+        "row": 13,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 9,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_9",
+      "label": "AFT (lb) #9",
+      "labelNorm": "aft 9",
+      "aliases": [
+        "aft",
+        "9",
+        "aft 9"
+      ],
+      "labelAddress": "C13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E13",
+        "row": 13,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 9,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_10",
+      "label": "FWD (lb) #10",
+      "labelNorm": "fwd 10",
+      "aliases": [
+        "fwd",
+        "10",
+        "fwd 10"
+      ],
+      "labelAddress": "C14",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D14",
+        "row": 14,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 10,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_10",
+      "label": "AFT (lb) #10",
+      "labelNorm": "aft 10",
+      "aliases": [
+        "aft",
+        "10",
+        "aft 10"
+      ],
+      "labelAddress": "C14",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E14",
+        "row": 14,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 10,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_11",
+      "label": "FWD (lb) #11",
+      "labelNorm": "fwd 11",
+      "aliases": [
+        "fwd",
+        "11",
+        "fwd 11"
+      ],
+      "labelAddress": "C15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D15",
+        "row": 15,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 11,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_11",
+      "label": "AFT (lb) #11",
+      "labelNorm": "aft 11",
+      "aliases": [
+        "aft",
+        "11",
+        "aft 11"
+      ],
+      "labelAddress": "C15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E15",
+        "row": 15,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 11,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_12",
+      "label": "FWD (lb) #12",
+      "labelNorm": "fwd 12",
+      "aliases": [
+        "fwd",
+        "12",
+        "fwd 12"
+      ],
+      "labelAddress": "C16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D16",
+        "row": 16,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 12,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_12",
+      "label": "AFT (lb) #12",
+      "labelNorm": "aft 12",
+      "aliases": [
+        "aft",
+        "12",
+        "aft 12"
+      ],
+      "labelAddress": "C16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E16",
+        "row": 16,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 12,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_13",
+      "label": "FWD (lb) #13",
+      "labelNorm": "fwd 13",
+      "aliases": [
+        "fwd",
+        "13",
+        "fwd 13"
+      ],
+      "labelAddress": "C17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D17",
+        "row": 17,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 13,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_13",
+      "label": "AFT (lb) #13",
+      "labelNorm": "aft 13",
+      "aliases": [
+        "aft",
+        "13",
+        "aft 13"
+      ],
+      "labelAddress": "C17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E17",
+        "row": 17,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 13,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_14",
+      "label": "FWD (lb) #14",
+      "labelNorm": "fwd 14",
+      "aliases": [
+        "fwd",
+        "14",
+        "fwd 14"
+      ],
+      "labelAddress": "C18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D18",
+        "row": 18,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 14,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_14",
+      "label": "AFT (lb) #14",
+      "labelNorm": "aft 14",
+      "aliases": [
+        "aft",
+        "14",
+        "aft 14"
+      ],
+      "labelAddress": "C18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E18",
+        "row": 18,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 14,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_15",
+      "label": "FWD (lb) #15",
+      "labelNorm": "fwd 15",
+      "aliases": [
+        "fwd",
+        "15",
+        "fwd 15"
+      ],
+      "labelAddress": "C19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D19",
+        "row": 19,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 15,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_15",
+      "label": "AFT (lb) #15",
+      "labelNorm": "aft 15",
+      "aliases": [
+        "aft",
+        "15",
+        "aft 15"
+      ],
+      "labelAddress": "C19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E19",
+        "row": 19,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 15,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_16",
+      "label": "FWD (lb) #16",
+      "labelNorm": "fwd 16",
+      "aliases": [
+        "fwd",
+        "16",
+        "fwd 16"
+      ],
+      "labelAddress": "C20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D20",
+        "row": 20,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 16,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_16",
+      "label": "AFT (lb) #16",
+      "labelNorm": "aft 16",
+      "aliases": [
+        "aft",
+        "16",
+        "aft 16"
+      ],
+      "labelAddress": "C20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E20",
+        "row": 20,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 16,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_17",
+      "label": "FWD (lb) #17",
+      "labelNorm": "fwd 17",
+      "aliases": [
+        "fwd",
+        "17",
+        "fwd 17"
+      ],
+      "labelAddress": "C21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D21",
+        "row": 21,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 17,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_17",
+      "label": "AFT (lb) #17",
+      "labelNorm": "aft 17",
+      "aliases": [
+        "aft",
+        "17",
+        "aft 17"
+      ],
+      "labelAddress": "C21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E21",
+        "row": 21,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 17,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_18",
+      "label": "FWD (lb) #18",
+      "labelNorm": "fwd 18",
+      "aliases": [
+        "fwd",
+        "18",
+        "fwd 18"
+      ],
+      "labelAddress": "C22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D22",
+        "row": 22,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 18,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_18",
+      "label": "AFT (lb) #18",
+      "labelNorm": "aft 18",
+      "aliases": [
+        "aft",
+        "18",
+        "aft 18"
+      ],
+      "labelAddress": "C22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E22",
+        "row": 22,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 18,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_19",
+      "label": "FWD (lb) #19",
+      "labelNorm": "fwd 19",
+      "aliases": [
+        "fwd",
+        "19",
+        "fwd 19"
+      ],
+      "labelAddress": "C23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D23",
+        "row": 23,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 19,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_19",
+      "label": "AFT (lb) #19",
+      "labelNorm": "aft 19",
+      "aliases": [
+        "aft",
+        "19",
+        "aft 19"
+      ],
+      "labelAddress": "C23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E23",
+        "row": 23,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 19,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_20",
+      "label": "FWD (lb) #20",
+      "labelNorm": "fwd 20",
+      "aliases": [
+        "fwd",
+        "20",
+        "fwd 20"
+      ],
+      "labelAddress": "C24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D24",
+        "row": 24,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 20,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_20",
+      "label": "AFT (lb) #20",
+      "labelNorm": "aft 20",
+      "aliases": [
+        "aft",
+        "20",
+        "aft 20"
+      ],
+      "labelAddress": "C24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E24",
+        "row": 24,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 20,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_21",
+      "label": "FWD (lb) #21",
+      "labelNorm": "fwd 21",
+      "aliases": [
+        "fwd",
+        "21",
+        "fwd 21"
+      ],
+      "labelAddress": "C25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D25",
+        "row": 25,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 21,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_21",
+      "label": "AFT (lb) #21",
+      "labelNorm": "aft 21",
+      "aliases": [
+        "aft",
+        "21",
+        "aft 21"
+      ],
+      "labelAddress": "C25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E25",
+        "row": 25,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 21,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_22",
+      "label": "FWD (lb) #22",
+      "labelNorm": "fwd 22",
+      "aliases": [
+        "fwd",
+        "22",
+        "fwd 22"
+      ],
+      "labelAddress": "C26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D26",
+        "row": 26,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 22,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_22",
+      "label": "AFT (lb) #22",
+      "labelNorm": "aft 22",
+      "aliases": [
+        "aft",
+        "22",
+        "aft 22"
+      ],
+      "labelAddress": "C26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E26",
+        "row": 26,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 22,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_23",
+      "label": "FWD (lb) #23",
+      "labelNorm": "fwd 23",
+      "aliases": [
+        "fwd",
+        "23",
+        "fwd 23"
+      ],
+      "labelAddress": "C27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D27",
+        "row": 27,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 23,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_23",
+      "label": "AFT (lb) #23",
+      "labelNorm": "aft 23",
+      "aliases": [
+        "aft",
+        "23",
+        "aft 23"
+      ],
+      "labelAddress": "C27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E27",
+        "row": 27,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 23,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_24",
+      "label": "FWD (lb) #24",
+      "labelNorm": "fwd 24",
+      "aliases": [
+        "fwd",
+        "24",
+        "fwd 24"
+      ],
+      "labelAddress": "C28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D28",
+        "row": 28,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 24,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_24",
+      "label": "AFT (lb) #24",
+      "labelNorm": "aft 24",
+      "aliases": [
+        "aft",
+        "24",
+        "aft 24"
+      ],
+      "labelAddress": "C28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E28",
+        "row": 28,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 24,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_25",
+      "label": "FWD (lb) #25",
+      "labelNorm": "fwd 25",
+      "aliases": [
+        "fwd",
+        "25",
+        "fwd 25"
+      ],
+      "labelAddress": "C29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D29",
+        "row": 29,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 25,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_25",
+      "label": "AFT (lb) #25",
+      "labelNorm": "aft 25",
+      "aliases": [
+        "aft",
+        "25",
+        "aft 25"
+      ],
+      "labelAddress": "C29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E29",
+        "row": 29,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 25,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_26",
+      "label": "FWD (lb) #26",
+      "labelNorm": "fwd 26",
+      "aliases": [
+        "fwd",
+        "26",
+        "fwd 26"
+      ],
+      "labelAddress": "C30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D30",
+        "row": 30,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 26,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_26",
+      "label": "AFT (lb) #26",
+      "labelNorm": "aft 26",
+      "aliases": [
+        "aft",
+        "26",
+        "aft 26"
+      ],
+      "labelAddress": "C30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E30",
+        "row": 30,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 26,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_27",
+      "label": "FWD (lb) #27",
+      "labelNorm": "fwd 27",
+      "aliases": [
+        "fwd",
+        "27",
+        "fwd 27"
+      ],
+      "labelAddress": "C31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "D31",
+        "row": 31,
+        "col": 4,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 27,
+        "columnRole": "fwd",
+        "valueCol": 4
+      }
+    },
+    {
+      "id": "aft_27",
+      "label": "AFT (lb) #27",
+      "labelNorm": "aft 27",
+      "aliases": [
+        "aft",
+        "27",
+        "aft 27"
+      ],
+      "labelAddress": "C31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "E31",
+        "row": 31,
+        "col": 5,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 3,
+        "index": 27,
+        "columnRole": "aft",
+        "valueCol": 5
+      }
+    },
+    {
+      "id": "fwd_28",
+      "label": "FWD (lb) #28",
+      "labelNorm": "fwd 28",
+      "aliases": [
+        "fwd",
+        "28",
+        "fwd 28"
+      ],
+      "labelAddress": "G5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H5",
+        "row": 5,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 28,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_28",
+      "label": "AFT (lb) #28",
+      "labelNorm": "aft 28",
+      "aliases": [
+        "aft",
+        "28",
+        "aft 28"
+      ],
+      "labelAddress": "G5",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I5",
+        "row": 5,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 28,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_29",
+      "label": "FWD (lb) #29",
+      "labelNorm": "fwd 29",
+      "aliases": [
+        "fwd",
+        "29",
+        "fwd 29"
+      ],
+      "labelAddress": "G6",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H6",
+        "row": 6,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 29,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_29",
+      "label": "AFT (lb) #29",
+      "labelNorm": "aft 29",
+      "aliases": [
+        "aft",
+        "29",
+        "aft 29"
+      ],
+      "labelAddress": "G6",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I6",
+        "row": 6,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 29,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_30",
+      "label": "FWD (lb) #30",
+      "labelNorm": "fwd 30",
+      "aliases": [
+        "fwd",
+        "30",
+        "fwd 30"
+      ],
+      "labelAddress": "G7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H7",
+        "row": 7,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 30,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_30",
+      "label": "AFT (lb) #30",
+      "labelNorm": "aft 30",
+      "aliases": [
+        "aft",
+        "30",
+        "aft 30"
+      ],
+      "labelAddress": "G7",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I7",
+        "row": 7,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 30,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_31",
+      "label": "FWD (lb) #31",
+      "labelNorm": "fwd 31",
+      "aliases": [
+        "fwd",
+        "31",
+        "fwd 31"
+      ],
+      "labelAddress": "G8",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H8",
+        "row": 8,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 31,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_31",
+      "label": "AFT (lb) #31",
+      "labelNorm": "aft 31",
+      "aliases": [
+        "aft",
+        "31",
+        "aft 31"
+      ],
+      "labelAddress": "G8",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I8",
+        "row": 8,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 31,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_32",
+      "label": "FWD (lb) #32",
+      "labelNorm": "fwd 32",
+      "aliases": [
+        "fwd",
+        "32",
+        "fwd 32"
+      ],
+      "labelAddress": "G9",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H9",
+        "row": 9,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 32,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_32",
+      "label": "AFT (lb) #32",
+      "labelNorm": "aft 32",
+      "aliases": [
+        "aft",
+        "32",
+        "aft 32"
+      ],
+      "labelAddress": "G9",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I9",
+        "row": 9,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 32,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_33",
+      "label": "FWD (lb) #33",
+      "labelNorm": "fwd 33",
+      "aliases": [
+        "fwd",
+        "33",
+        "fwd 33"
+      ],
+      "labelAddress": "G10",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H10",
+        "row": 10,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 33,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_33",
+      "label": "AFT (lb) #33",
+      "labelNorm": "aft 33",
+      "aliases": [
+        "aft",
+        "33",
+        "aft 33"
+      ],
+      "labelAddress": "G10",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I10",
+        "row": 10,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 33,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_34",
+      "label": "FWD (lb) #34",
+      "labelNorm": "fwd 34",
+      "aliases": [
+        "fwd",
+        "34",
+        "fwd 34"
+      ],
+      "labelAddress": "G11",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H11",
+        "row": 11,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 34,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_34",
+      "label": "AFT (lb) #34",
+      "labelNorm": "aft 34",
+      "aliases": [
+        "aft",
+        "34",
+        "aft 34"
+      ],
+      "labelAddress": "G11",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I11",
+        "row": 11,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 34,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_35",
+      "label": "FWD (lb) #35",
+      "labelNorm": "fwd 35",
+      "aliases": [
+        "fwd",
+        "35",
+        "fwd 35"
+      ],
+      "labelAddress": "G12",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H12",
+        "row": 12,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 35,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_35",
+      "label": "AFT (lb) #35",
+      "labelNorm": "aft 35",
+      "aliases": [
+        "aft",
+        "35",
+        "aft 35"
+      ],
+      "labelAddress": "G12",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I12",
+        "row": 12,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 35,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_36",
+      "label": "FWD (lb) #36",
+      "labelNorm": "fwd 36",
+      "aliases": [
+        "fwd",
+        "36",
+        "fwd 36"
+      ],
+      "labelAddress": "G13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H13",
+        "row": 13,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 36,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_36",
+      "label": "AFT (lb) #36",
+      "labelNorm": "aft 36",
+      "aliases": [
+        "aft",
+        "36",
+        "aft 36"
+      ],
+      "labelAddress": "G13",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I13",
+        "row": 13,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 36,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_37",
+      "label": "FWD (lb) #37",
+      "labelNorm": "fwd 37",
+      "aliases": [
+        "fwd",
+        "37",
+        "fwd 37"
+      ],
+      "labelAddress": "G14",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H14",
+        "row": 14,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 37,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_37",
+      "label": "AFT (lb) #37",
+      "labelNorm": "aft 37",
+      "aliases": [
+        "aft",
+        "37",
+        "aft 37"
+      ],
+      "labelAddress": "G14",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I14",
+        "row": 14,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 37,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_38",
+      "label": "FWD (lb) #38",
+      "labelNorm": "fwd 38",
+      "aliases": [
+        "fwd",
+        "38",
+        "fwd 38"
+      ],
+      "labelAddress": "G15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H15",
+        "row": 15,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 38,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_38",
+      "label": "AFT (lb) #38",
+      "labelNorm": "aft 38",
+      "aliases": [
+        "aft",
+        "38",
+        "aft 38"
+      ],
+      "labelAddress": "G15",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I15",
+        "row": 15,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 38,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_39",
+      "label": "FWD (lb) #39",
+      "labelNorm": "fwd 39",
+      "aliases": [
+        "fwd",
+        "39",
+        "fwd 39"
+      ],
+      "labelAddress": "G16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H16",
+        "row": 16,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 39,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_39",
+      "label": "AFT (lb) #39",
+      "labelNorm": "aft 39",
+      "aliases": [
+        "aft",
+        "39",
+        "aft 39"
+      ],
+      "labelAddress": "G16",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I16",
+        "row": 16,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 39,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_40",
+      "label": "FWD (lb) #40",
+      "labelNorm": "fwd 40",
+      "aliases": [
+        "fwd",
+        "40",
+        "fwd 40"
+      ],
+      "labelAddress": "G17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H17",
+        "row": 17,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 40,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_40",
+      "label": "AFT (lb) #40",
+      "labelNorm": "aft 40",
+      "aliases": [
+        "aft",
+        "40",
+        "aft 40"
+      ],
+      "labelAddress": "G17",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I17",
+        "row": 17,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 40,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_41",
+      "label": "FWD (lb) #41",
+      "labelNorm": "fwd 41",
+      "aliases": [
+        "fwd",
+        "41",
+        "fwd 41"
+      ],
+      "labelAddress": "G18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H18",
+        "row": 18,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 41,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_41",
+      "label": "AFT (lb) #41",
+      "labelNorm": "aft 41",
+      "aliases": [
+        "aft",
+        "41",
+        "aft 41"
+      ],
+      "labelAddress": "G18",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I18",
+        "row": 18,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 41,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_42",
+      "label": "FWD (lb) #42",
+      "labelNorm": "fwd 42",
+      "aliases": [
+        "fwd",
+        "42",
+        "fwd 42"
+      ],
+      "labelAddress": "G19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H19",
+        "row": 19,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 42,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_42",
+      "label": "AFT (lb) #42",
+      "labelNorm": "aft 42",
+      "aliases": [
+        "aft",
+        "42",
+        "aft 42"
+      ],
+      "labelAddress": "G19",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I19",
+        "row": 19,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 42,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_43",
+      "label": "FWD (lb) #43",
+      "labelNorm": "fwd 43",
+      "aliases": [
+        "fwd",
+        "43",
+        "fwd 43"
+      ],
+      "labelAddress": "G20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H20",
+        "row": 20,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 43,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_43",
+      "label": "AFT (lb) #43",
+      "labelNorm": "aft 43",
+      "aliases": [
+        "aft",
+        "43",
+        "aft 43"
+      ],
+      "labelAddress": "G20",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I20",
+        "row": 20,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 43,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_44",
+      "label": "FWD (lb) #44",
+      "labelNorm": "fwd 44",
+      "aliases": [
+        "fwd",
+        "44",
+        "fwd 44"
+      ],
+      "labelAddress": "G21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H21",
+        "row": 21,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 44,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_44",
+      "label": "AFT (lb) #44",
+      "labelNorm": "aft 44",
+      "aliases": [
+        "aft",
+        "44",
+        "aft 44"
+      ],
+      "labelAddress": "G21",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I21",
+        "row": 21,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 44,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_45",
+      "label": "FWD (lb) #45",
+      "labelNorm": "fwd 45",
+      "aliases": [
+        "fwd",
+        "45",
+        "fwd 45"
+      ],
+      "labelAddress": "G22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H22",
+        "row": 22,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 45,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_45",
+      "label": "AFT (lb) #45",
+      "labelNorm": "aft 45",
+      "aliases": [
+        "aft",
+        "45",
+        "aft 45"
+      ],
+      "labelAddress": "G22",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I22",
+        "row": 22,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 45,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_46",
+      "label": "FWD (lb) #46",
+      "labelNorm": "fwd 46",
+      "aliases": [
+        "fwd",
+        "46",
+        "fwd 46"
+      ],
+      "labelAddress": "G23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H23",
+        "row": 23,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 46,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_46",
+      "label": "AFT (lb) #46",
+      "labelNorm": "aft 46",
+      "aliases": [
+        "aft",
+        "46",
+        "aft 46"
+      ],
+      "labelAddress": "G23",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I23",
+        "row": 23,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 46,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_47",
+      "label": "FWD (lb) #47",
+      "labelNorm": "fwd 47",
+      "aliases": [
+        "fwd",
+        "47",
+        "fwd 47"
+      ],
+      "labelAddress": "G24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H24",
+        "row": 24,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 47,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_47",
+      "label": "AFT (lb) #47",
+      "labelNorm": "aft 47",
+      "aliases": [
+        "aft",
+        "47",
+        "aft 47"
+      ],
+      "labelAddress": "G24",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I24",
+        "row": 24,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 47,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_48",
+      "label": "FWD (lb) #48",
+      "labelNorm": "fwd 48",
+      "aliases": [
+        "fwd",
+        "48",
+        "fwd 48"
+      ],
+      "labelAddress": "G25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H25",
+        "row": 25,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 48,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_48",
+      "label": "AFT (lb) #48",
+      "labelNorm": "aft 48",
+      "aliases": [
+        "aft",
+        "48",
+        "aft 48"
+      ],
+      "labelAddress": "G25",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I25",
+        "row": 25,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 48,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_49",
+      "label": "FWD (lb) #49",
+      "labelNorm": "fwd 49",
+      "aliases": [
+        "fwd",
+        "49",
+        "fwd 49"
+      ],
+      "labelAddress": "G26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H26",
+        "row": 26,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 49,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_49",
+      "label": "AFT (lb) #49",
+      "labelNorm": "aft 49",
+      "aliases": [
+        "aft",
+        "49",
+        "aft 49"
+      ],
+      "labelAddress": "G26",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I26",
+        "row": 26,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 49,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_50",
+      "label": "FWD (lb) #50",
+      "labelNorm": "fwd 50",
+      "aliases": [
+        "fwd",
+        "50",
+        "fwd 50"
+      ],
+      "labelAddress": "G27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H27",
+        "row": 27,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 50,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_50",
+      "label": "AFT (lb) #50",
+      "labelNorm": "aft 50",
+      "aliases": [
+        "aft",
+        "50",
+        "aft 50"
+      ],
+      "labelAddress": "G27",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I27",
+        "row": 27,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 50,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_51",
+      "label": "FWD (lb) #51",
+      "labelNorm": "fwd 51",
+      "aliases": [
+        "fwd",
+        "51",
+        "fwd 51"
+      ],
+      "labelAddress": "G28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H28",
+        "row": 28,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 51,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_51",
+      "label": "AFT (lb) #51",
+      "labelNorm": "aft 51",
+      "aliases": [
+        "aft",
+        "51",
+        "aft 51"
+      ],
+      "labelAddress": "G28",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I28",
+        "row": 28,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 51,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_52",
+      "label": "FWD (lb) #52",
+      "labelNorm": "fwd 52",
+      "aliases": [
+        "fwd",
+        "52",
+        "fwd 52"
+      ],
+      "labelAddress": "G29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H29",
+        "row": 29,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 52,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_52",
+      "label": "AFT (lb) #52",
+      "labelNorm": "aft 52",
+      "aliases": [
+        "aft",
+        "52",
+        "aft 52"
+      ],
+      "labelAddress": "G29",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I29",
+        "row": 29,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 52,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_53",
+      "label": "FWD (lb) #53",
+      "labelNorm": "fwd 53",
+      "aliases": [
+        "fwd",
+        "53",
+        "fwd 53"
+      ],
+      "labelAddress": "G30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H30",
+        "row": 30,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 53,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_53",
+      "label": "AFT (lb) #53",
+      "labelNorm": "aft 53",
+      "aliases": [
+        "aft",
+        "53",
+        "aft 53"
+      ],
+      "labelAddress": "G30",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I30",
+        "row": 30,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 53,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    },
+    {
+      "id": "fwd_54",
+      "label": "FWD (lb) #54",
+      "labelNorm": "fwd 54",
+      "aliases": [
+        "fwd",
+        "54",
+        "fwd 54"
+      ],
+      "labelAddress": "G31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "H31",
+        "row": 31,
+        "col": 8,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 54,
+        "columnRole": "fwd",
+        "valueCol": 8
+      }
+    },
+    {
+      "id": "aft_54",
+      "label": "AFT (lb) #54",
+      "labelNorm": "aft 54",
+      "aliases": [
+        "aft",
+        "54",
+        "aft 54"
+      ],
+      "labelAddress": "G31",
+      "writeTarget": {
+        "type": "xlsx_cell",
+        "address": "I31",
+        "row": 31,
+        "col": 9,
+        "strategy": "grid"
+      },
+      "kind": "measurement",
+      "fieldType": "force_lb",
+      "grid": {
+        "indexCol": 7,
+        "index": 54,
+        "columnRole": "aft",
+        "valueCol": 9
+      }
+    }
+  ],
+  "fingerprint": [
+    "shuttle tow test",
+    "catapult no:",
+    "date:",
+    "periodicity code:",
+    "jsn:",
+    "shot no.:",
+    "shot since last insp.",
+    "center of trough cover",
+    "fwd (lb)",
+    "aft (lb)",
+    "1",
+    "28",
+    "2",
+    "29",
+    "3",
+    "30",
+    "4",
+    "31",
+    "5",
+    "32",
+    "6",
+    "33",
+    "7",
+    "34",
+    "8",
+    "35",
+    "9",
+    "36",
+    "10",
+    "37",
+    "11",
+    "38",
+    "12",
+    "39",
+    "13",
+    "40",
+    "14",
+    "41",
+    "15",
+    "42",
+    "16",
+    "43",
+    "17",
+    "44",
+    "18",
+    "45",
+    "19",
+    "46",
+    "20",
+    "47",
+    "21",
+    "48",
+    "22",
+    "49",
+    "23",
+    "50",
+    "24",
+    "51",
+    "25",
+    "52",
+    "26",
+    "53",
+    "27",
+    "54",
+    "cdi:",
+    "qa inspector:",
+    "cat chief:",
+    "maint officer/cpo:"
+  ],
+  "titleHints": [
+    "shot",
+    "aft",
+    "cat",
+    "catapult",
+    "cdi",
+    "center",
+    "chief",
+    "code",
+    "cover",
+    "cpo",
+    "date",
+    "fwd",
+    "insp",
+    "inspector",
+    "jsn",
+    "last"
+  ],
+  "slotLayout": {
+    "schema": "multi_grid",
+    "headerSlots": 11,
+    "measurementSlots": 108,
+    "expectedHandwrittenDataCells": 108,
+    "grids": [
+      {
+        "id": "grid_1",
+        "indexCol": 3,
+        "indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "valueColumns": [
+          {
+            "col": 4,
+            "role": "fwd",
+            "header": "FWD (lb)"
+          },
+          {
+            "col": 5,
+            "role": "aft",
+            "header": "AFT (lb)"
+          }
+        ],
+        "slotCount": 54
+      },
+      {
+        "id": "grid_2",
+        "indexCol": 7,
+        "indices": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ],
+        "valueColumns": [
+          {
+            "col": 8,
+            "role": "fwd",
+            "header": "FWD (lb)"
+          },
+          {
+            "col": 9,
+            "role": "aft",
+            "header": "AFT (lb)"
+          }
+        ],
+        "slotCount": 54
+      }
+    ],
+    "leftTable": {
+      "shots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "columns": [
+        "index",
+        "fwd",
+        "aft"
+      ],
+      "valueColumns": [
+        "fwd",
+        "aft"
+      ],
+      "indexCol": 3,
+      "excelValueCols": [
+        {
+          "role": "fwd",
+          "col": 4
+        },
+        {
+          "role": "aft",
+          "col": 5
+        }
+      ]
+    },
+    "rightTable": {
+      "shots": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "columns": [
+        "index",
+        "fwd",
+        "aft"
+      ],
+      "valueColumns": [
+        "fwd",
+        "aft"
+      ],
+      "indexCol": 7,
+      "excelValueCols": [
+        {
+          "role": "fwd",
+          "col": 8
+        },
+        {
+          "role": "aft",
+          "col": 9
+        }
+      ]
+    },
+    "dataRows": 27,
+    "hasMeasurementGrid": true
+  },
+  "grids": [
+    {
+      "indexCol": 3,
+      "startRow": 5,
+      "endRow": 31,
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "valueColumns": [
+        {
+          "col": 4,
+          "role": "fwd",
+          "header": "FWD (lb)"
+        },
+        {
+          "col": 5,
+          "role": "aft",
+          "header": "AFT (lb)"
+        }
+      ],
+      "slots": [
+        {
+          "id": "fwd_1",
+          "label": "FWD (lb) #1",
+          "labelNorm": "fwd 1",
+          "aliases": [
+            "fwd",
+            "1",
+            "fwd 1"
+          ],
+          "labelAddress": "C5",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D5",
+            "row": 5,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 1,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_1",
+          "label": "AFT (lb) #1",
+          "labelNorm": "aft 1",
+          "aliases": [
+            "aft",
+            "1",
+            "aft 1"
+          ],
+          "labelAddress": "C5",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E5",
+            "row": 5,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 1,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_2",
+          "label": "FWD (lb) #2",
+          "labelNorm": "fwd 2",
+          "aliases": [
+            "fwd",
+            "2",
+            "fwd 2"
+          ],
+          "labelAddress": "C6",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D6",
+            "row": 6,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 2,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_2",
+          "label": "AFT (lb) #2",
+          "labelNorm": "aft 2",
+          "aliases": [
+            "aft",
+            "2",
+            "aft 2"
+          ],
+          "labelAddress": "C6",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E6",
+            "row": 6,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 2,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_3",
+          "label": "FWD (lb) #3",
+          "labelNorm": "fwd 3",
+          "aliases": [
+            "fwd",
+            "3",
+            "fwd 3"
+          ],
+          "labelAddress": "C7",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D7",
+            "row": 7,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 3,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_3",
+          "label": "AFT (lb) #3",
+          "labelNorm": "aft 3",
+          "aliases": [
+            "aft",
+            "3",
+            "aft 3"
+          ],
+          "labelAddress": "C7",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E7",
+            "row": 7,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 3,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_4",
+          "label": "FWD (lb) #4",
+          "labelNorm": "fwd 4",
+          "aliases": [
+            "fwd",
+            "4",
+            "fwd 4"
+          ],
+          "labelAddress": "C8",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D8",
+            "row": 8,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 4,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_4",
+          "label": "AFT (lb) #4",
+          "labelNorm": "aft 4",
+          "aliases": [
+            "aft",
+            "4",
+            "aft 4"
+          ],
+          "labelAddress": "C8",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E8",
+            "row": 8,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 4,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_5",
+          "label": "FWD (lb) #5",
+          "labelNorm": "fwd 5",
+          "aliases": [
+            "fwd",
+            "5",
+            "fwd 5"
+          ],
+          "labelAddress": "C9",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D9",
+            "row": 9,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 5,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_5",
+          "label": "AFT (lb) #5",
+          "labelNorm": "aft 5",
+          "aliases": [
+            "aft",
+            "5",
+            "aft 5"
+          ],
+          "labelAddress": "C9",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E9",
+            "row": 9,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 5,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_6",
+          "label": "FWD (lb) #6",
+          "labelNorm": "fwd 6",
+          "aliases": [
+            "fwd",
+            "6",
+            "fwd 6"
+          ],
+          "labelAddress": "C10",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D10",
+            "row": 10,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 6,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_6",
+          "label": "AFT (lb) #6",
+          "labelNorm": "aft 6",
+          "aliases": [
+            "aft",
+            "6",
+            "aft 6"
+          ],
+          "labelAddress": "C10",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E10",
+            "row": 10,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 6,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_7",
+          "label": "FWD (lb) #7",
+          "labelNorm": "fwd 7",
+          "aliases": [
+            "fwd",
+            "7",
+            "fwd 7"
+          ],
+          "labelAddress": "C11",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D11",
+            "row": 11,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 7,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_7",
+          "label": "AFT (lb) #7",
+          "labelNorm": "aft 7",
+          "aliases": [
+            "aft",
+            "7",
+            "aft 7"
+          ],
+          "labelAddress": "C11",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E11",
+            "row": 11,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 7,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_8",
+          "label": "FWD (lb) #8",
+          "labelNorm": "fwd 8",
+          "aliases": [
+            "fwd",
+            "8",
+            "fwd 8"
+          ],
+          "labelAddress": "C12",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D12",
+            "row": 12,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 8,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_8",
+          "label": "AFT (lb) #8",
+          "labelNorm": "aft 8",
+          "aliases": [
+            "aft",
+            "8",
+            "aft 8"
+          ],
+          "labelAddress": "C12",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E12",
+            "row": 12,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 8,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_9",
+          "label": "FWD (lb) #9",
+          "labelNorm": "fwd 9",
+          "aliases": [
+            "fwd",
+            "9",
+            "fwd 9"
+          ],
+          "labelAddress": "C13",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D13",
+            "row": 13,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 9,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_9",
+          "label": "AFT (lb) #9",
+          "labelNorm": "aft 9",
+          "aliases": [
+            "aft",
+            "9",
+            "aft 9"
+          ],
+          "labelAddress": "C13",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E13",
+            "row": 13,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 9,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_10",
+          "label": "FWD (lb) #10",
+          "labelNorm": "fwd 10",
+          "aliases": [
+            "fwd",
+            "10",
+            "fwd 10"
+          ],
+          "labelAddress": "C14",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D14",
+            "row": 14,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 10,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_10",
+          "label": "AFT (lb) #10",
+          "labelNorm": "aft 10",
+          "aliases": [
+            "aft",
+            "10",
+            "aft 10"
+          ],
+          "labelAddress": "C14",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E14",
+            "row": 14,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 10,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_11",
+          "label": "FWD (lb) #11",
+          "labelNorm": "fwd 11",
+          "aliases": [
+            "fwd",
+            "11",
+            "fwd 11"
+          ],
+          "labelAddress": "C15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D15",
+            "row": 15,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 11,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_11",
+          "label": "AFT (lb) #11",
+          "labelNorm": "aft 11",
+          "aliases": [
+            "aft",
+            "11",
+            "aft 11"
+          ],
+          "labelAddress": "C15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E15",
+            "row": 15,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 11,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_12",
+          "label": "FWD (lb) #12",
+          "labelNorm": "fwd 12",
+          "aliases": [
+            "fwd",
+            "12",
+            "fwd 12"
+          ],
+          "labelAddress": "C16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D16",
+            "row": 16,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 12,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_12",
+          "label": "AFT (lb) #12",
+          "labelNorm": "aft 12",
+          "aliases": [
+            "aft",
+            "12",
+            "aft 12"
+          ],
+          "labelAddress": "C16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E16",
+            "row": 16,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 12,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_13",
+          "label": "FWD (lb) #13",
+          "labelNorm": "fwd 13",
+          "aliases": [
+            "fwd",
+            "13",
+            "fwd 13"
+          ],
+          "labelAddress": "C17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D17",
+            "row": 17,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 13,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_13",
+          "label": "AFT (lb) #13",
+          "labelNorm": "aft 13",
+          "aliases": [
+            "aft",
+            "13",
+            "aft 13"
+          ],
+          "labelAddress": "C17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E17",
+            "row": 17,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 13,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_14",
+          "label": "FWD (lb) #14",
+          "labelNorm": "fwd 14",
+          "aliases": [
+            "fwd",
+            "14",
+            "fwd 14"
+          ],
+          "labelAddress": "C18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D18",
+            "row": 18,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 14,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_14",
+          "label": "AFT (lb) #14",
+          "labelNorm": "aft 14",
+          "aliases": [
+            "aft",
+            "14",
+            "aft 14"
+          ],
+          "labelAddress": "C18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E18",
+            "row": 18,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 14,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_15",
+          "label": "FWD (lb) #15",
+          "labelNorm": "fwd 15",
+          "aliases": [
+            "fwd",
+            "15",
+            "fwd 15"
+          ],
+          "labelAddress": "C19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D19",
+            "row": 19,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 15,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_15",
+          "label": "AFT (lb) #15",
+          "labelNorm": "aft 15",
+          "aliases": [
+            "aft",
+            "15",
+            "aft 15"
+          ],
+          "labelAddress": "C19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E19",
+            "row": 19,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 15,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_16",
+          "label": "FWD (lb) #16",
+          "labelNorm": "fwd 16",
+          "aliases": [
+            "fwd",
+            "16",
+            "fwd 16"
+          ],
+          "labelAddress": "C20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D20",
+            "row": 20,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 16,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_16",
+          "label": "AFT (lb) #16",
+          "labelNorm": "aft 16",
+          "aliases": [
+            "aft",
+            "16",
+            "aft 16"
+          ],
+          "labelAddress": "C20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E20",
+            "row": 20,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 16,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_17",
+          "label": "FWD (lb) #17",
+          "labelNorm": "fwd 17",
+          "aliases": [
+            "fwd",
+            "17",
+            "fwd 17"
+          ],
+          "labelAddress": "C21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D21",
+            "row": 21,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 17,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_17",
+          "label": "AFT (lb) #17",
+          "labelNorm": "aft 17",
+          "aliases": [
+            "aft",
+            "17",
+            "aft 17"
+          ],
+          "labelAddress": "C21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E21",
+            "row": 21,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 17,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_18",
+          "label": "FWD (lb) #18",
+          "labelNorm": "fwd 18",
+          "aliases": [
+            "fwd",
+            "18",
+            "fwd 18"
+          ],
+          "labelAddress": "C22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D22",
+            "row": 22,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 18,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_18",
+          "label": "AFT (lb) #18",
+          "labelNorm": "aft 18",
+          "aliases": [
+            "aft",
+            "18",
+            "aft 18"
+          ],
+          "labelAddress": "C22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E22",
+            "row": 22,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 18,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_19",
+          "label": "FWD (lb) #19",
+          "labelNorm": "fwd 19",
+          "aliases": [
+            "fwd",
+            "19",
+            "fwd 19"
+          ],
+          "labelAddress": "C23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D23",
+            "row": 23,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 19,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_19",
+          "label": "AFT (lb) #19",
+          "labelNorm": "aft 19",
+          "aliases": [
+            "aft",
+            "19",
+            "aft 19"
+          ],
+          "labelAddress": "C23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E23",
+            "row": 23,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 19,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_20",
+          "label": "FWD (lb) #20",
+          "labelNorm": "fwd 20",
+          "aliases": [
+            "fwd",
+            "20",
+            "fwd 20"
+          ],
+          "labelAddress": "C24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D24",
+            "row": 24,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 20,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_20",
+          "label": "AFT (lb) #20",
+          "labelNorm": "aft 20",
+          "aliases": [
+            "aft",
+            "20",
+            "aft 20"
+          ],
+          "labelAddress": "C24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E24",
+            "row": 24,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 20,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_21",
+          "label": "FWD (lb) #21",
+          "labelNorm": "fwd 21",
+          "aliases": [
+            "fwd",
+            "21",
+            "fwd 21"
+          ],
+          "labelAddress": "C25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D25",
+            "row": 25,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 21,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_21",
+          "label": "AFT (lb) #21",
+          "labelNorm": "aft 21",
+          "aliases": [
+            "aft",
+            "21",
+            "aft 21"
+          ],
+          "labelAddress": "C25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E25",
+            "row": 25,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 21,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_22",
+          "label": "FWD (lb) #22",
+          "labelNorm": "fwd 22",
+          "aliases": [
+            "fwd",
+            "22",
+            "fwd 22"
+          ],
+          "labelAddress": "C26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D26",
+            "row": 26,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 22,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_22",
+          "label": "AFT (lb) #22",
+          "labelNorm": "aft 22",
+          "aliases": [
+            "aft",
+            "22",
+            "aft 22"
+          ],
+          "labelAddress": "C26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E26",
+            "row": 26,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 22,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_23",
+          "label": "FWD (lb) #23",
+          "labelNorm": "fwd 23",
+          "aliases": [
+            "fwd",
+            "23",
+            "fwd 23"
+          ],
+          "labelAddress": "C27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D27",
+            "row": 27,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 23,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_23",
+          "label": "AFT (lb) #23",
+          "labelNorm": "aft 23",
+          "aliases": [
+            "aft",
+            "23",
+            "aft 23"
+          ],
+          "labelAddress": "C27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E27",
+            "row": 27,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 23,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_24",
+          "label": "FWD (lb) #24",
+          "labelNorm": "fwd 24",
+          "aliases": [
+            "fwd",
+            "24",
+            "fwd 24"
+          ],
+          "labelAddress": "C28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D28",
+            "row": 28,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 24,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_24",
+          "label": "AFT (lb) #24",
+          "labelNorm": "aft 24",
+          "aliases": [
+            "aft",
+            "24",
+            "aft 24"
+          ],
+          "labelAddress": "C28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E28",
+            "row": 28,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 24,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_25",
+          "label": "FWD (lb) #25",
+          "labelNorm": "fwd 25",
+          "aliases": [
+            "fwd",
+            "25",
+            "fwd 25"
+          ],
+          "labelAddress": "C29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D29",
+            "row": 29,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 25,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_25",
+          "label": "AFT (lb) #25",
+          "labelNorm": "aft 25",
+          "aliases": [
+            "aft",
+            "25",
+            "aft 25"
+          ],
+          "labelAddress": "C29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E29",
+            "row": 29,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 25,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_26",
+          "label": "FWD (lb) #26",
+          "labelNorm": "fwd 26",
+          "aliases": [
+            "fwd",
+            "26",
+            "fwd 26"
+          ],
+          "labelAddress": "C30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D30",
+            "row": 30,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 26,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_26",
+          "label": "AFT (lb) #26",
+          "labelNorm": "aft 26",
+          "aliases": [
+            "aft",
+            "26",
+            "aft 26"
+          ],
+          "labelAddress": "C30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E30",
+            "row": 30,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 26,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        },
+        {
+          "id": "fwd_27",
+          "label": "FWD (lb) #27",
+          "labelNorm": "fwd 27",
+          "aliases": [
+            "fwd",
+            "27",
+            "fwd 27"
+          ],
+          "labelAddress": "C31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "D31",
+            "row": 31,
+            "col": 4,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 27,
+            "columnRole": "fwd",
+            "valueCol": 4
+          }
+        },
+        {
+          "id": "aft_27",
+          "label": "AFT (lb) #27",
+          "labelNorm": "aft 27",
+          "aliases": [
+            "aft",
+            "27",
+            "aft 27"
+          ],
+          "labelAddress": "C31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "E31",
+            "row": 31,
+            "col": 5,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 3,
+            "index": 27,
+            "columnRole": "aft",
+            "valueCol": 5
+          }
+        }
+      ]
+    },
+    {
+      "indexCol": 7,
+      "startRow": 5,
+      "endRow": 31,
+      "indices": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "valueColumns": [
+        {
+          "col": 8,
+          "role": "fwd",
+          "header": "FWD (lb)"
+        },
+        {
+          "col": 9,
+          "role": "aft",
+          "header": "AFT (lb)"
+        }
+      ],
+      "slots": [
+        {
+          "id": "fwd_28",
+          "label": "FWD (lb) #28",
+          "labelNorm": "fwd 28",
+          "aliases": [
+            "fwd",
+            "28",
+            "fwd 28"
+          ],
+          "labelAddress": "G5",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H5",
+            "row": 5,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 28,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_28",
+          "label": "AFT (lb) #28",
+          "labelNorm": "aft 28",
+          "aliases": [
+            "aft",
+            "28",
+            "aft 28"
+          ],
+          "labelAddress": "G5",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I5",
+            "row": 5,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 28,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_29",
+          "label": "FWD (lb) #29",
+          "labelNorm": "fwd 29",
+          "aliases": [
+            "fwd",
+            "29",
+            "fwd 29"
+          ],
+          "labelAddress": "G6",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H6",
+            "row": 6,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 29,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_29",
+          "label": "AFT (lb) #29",
+          "labelNorm": "aft 29",
+          "aliases": [
+            "aft",
+            "29",
+            "aft 29"
+          ],
+          "labelAddress": "G6",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I6",
+            "row": 6,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 29,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_30",
+          "label": "FWD (lb) #30",
+          "labelNorm": "fwd 30",
+          "aliases": [
+            "fwd",
+            "30",
+            "fwd 30"
+          ],
+          "labelAddress": "G7",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H7",
+            "row": 7,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 30,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_30",
+          "label": "AFT (lb) #30",
+          "labelNorm": "aft 30",
+          "aliases": [
+            "aft",
+            "30",
+            "aft 30"
+          ],
+          "labelAddress": "G7",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I7",
+            "row": 7,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 30,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_31",
+          "label": "FWD (lb) #31",
+          "labelNorm": "fwd 31",
+          "aliases": [
+            "fwd",
+            "31",
+            "fwd 31"
+          ],
+          "labelAddress": "G8",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H8",
+            "row": 8,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 31,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_31",
+          "label": "AFT (lb) #31",
+          "labelNorm": "aft 31",
+          "aliases": [
+            "aft",
+            "31",
+            "aft 31"
+          ],
+          "labelAddress": "G8",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I8",
+            "row": 8,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 31,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_32",
+          "label": "FWD (lb) #32",
+          "labelNorm": "fwd 32",
+          "aliases": [
+            "fwd",
+            "32",
+            "fwd 32"
+          ],
+          "labelAddress": "G9",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H9",
+            "row": 9,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 32,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_32",
+          "label": "AFT (lb) #32",
+          "labelNorm": "aft 32",
+          "aliases": [
+            "aft",
+            "32",
+            "aft 32"
+          ],
+          "labelAddress": "G9",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I9",
+            "row": 9,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 32,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_33",
+          "label": "FWD (lb) #33",
+          "labelNorm": "fwd 33",
+          "aliases": [
+            "fwd",
+            "33",
+            "fwd 33"
+          ],
+          "labelAddress": "G10",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H10",
+            "row": 10,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 33,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_33",
+          "label": "AFT (lb) #33",
+          "labelNorm": "aft 33",
+          "aliases": [
+            "aft",
+            "33",
+            "aft 33"
+          ],
+          "labelAddress": "G10",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I10",
+            "row": 10,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 33,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_34",
+          "label": "FWD (lb) #34",
+          "labelNorm": "fwd 34",
+          "aliases": [
+            "fwd",
+            "34",
+            "fwd 34"
+          ],
+          "labelAddress": "G11",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H11",
+            "row": 11,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 34,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_34",
+          "label": "AFT (lb) #34",
+          "labelNorm": "aft 34",
+          "aliases": [
+            "aft",
+            "34",
+            "aft 34"
+          ],
+          "labelAddress": "G11",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I11",
+            "row": 11,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 34,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_35",
+          "label": "FWD (lb) #35",
+          "labelNorm": "fwd 35",
+          "aliases": [
+            "fwd",
+            "35",
+            "fwd 35"
+          ],
+          "labelAddress": "G12",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H12",
+            "row": 12,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 35,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_35",
+          "label": "AFT (lb) #35",
+          "labelNorm": "aft 35",
+          "aliases": [
+            "aft",
+            "35",
+            "aft 35"
+          ],
+          "labelAddress": "G12",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I12",
+            "row": 12,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 35,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_36",
+          "label": "FWD (lb) #36",
+          "labelNorm": "fwd 36",
+          "aliases": [
+            "fwd",
+            "36",
+            "fwd 36"
+          ],
+          "labelAddress": "G13",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H13",
+            "row": 13,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 36,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_36",
+          "label": "AFT (lb) #36",
+          "labelNorm": "aft 36",
+          "aliases": [
+            "aft",
+            "36",
+            "aft 36"
+          ],
+          "labelAddress": "G13",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I13",
+            "row": 13,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 36,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_37",
+          "label": "FWD (lb) #37",
+          "labelNorm": "fwd 37",
+          "aliases": [
+            "fwd",
+            "37",
+            "fwd 37"
+          ],
+          "labelAddress": "G14",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H14",
+            "row": 14,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 37,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_37",
+          "label": "AFT (lb) #37",
+          "labelNorm": "aft 37",
+          "aliases": [
+            "aft",
+            "37",
+            "aft 37"
+          ],
+          "labelAddress": "G14",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I14",
+            "row": 14,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 37,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_38",
+          "label": "FWD (lb) #38",
+          "labelNorm": "fwd 38",
+          "aliases": [
+            "fwd",
+            "38",
+            "fwd 38"
+          ],
+          "labelAddress": "G15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H15",
+            "row": 15,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 38,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_38",
+          "label": "AFT (lb) #38",
+          "labelNorm": "aft 38",
+          "aliases": [
+            "aft",
+            "38",
+            "aft 38"
+          ],
+          "labelAddress": "G15",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I15",
+            "row": 15,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 38,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_39",
+          "label": "FWD (lb) #39",
+          "labelNorm": "fwd 39",
+          "aliases": [
+            "fwd",
+            "39",
+            "fwd 39"
+          ],
+          "labelAddress": "G16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H16",
+            "row": 16,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 39,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_39",
+          "label": "AFT (lb) #39",
+          "labelNorm": "aft 39",
+          "aliases": [
+            "aft",
+            "39",
+            "aft 39"
+          ],
+          "labelAddress": "G16",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I16",
+            "row": 16,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 39,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_40",
+          "label": "FWD (lb) #40",
+          "labelNorm": "fwd 40",
+          "aliases": [
+            "fwd",
+            "40",
+            "fwd 40"
+          ],
+          "labelAddress": "G17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H17",
+            "row": 17,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 40,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_40",
+          "label": "AFT (lb) #40",
+          "labelNorm": "aft 40",
+          "aliases": [
+            "aft",
+            "40",
+            "aft 40"
+          ],
+          "labelAddress": "G17",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I17",
+            "row": 17,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 40,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_41",
+          "label": "FWD (lb) #41",
+          "labelNorm": "fwd 41",
+          "aliases": [
+            "fwd",
+            "41",
+            "fwd 41"
+          ],
+          "labelAddress": "G18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H18",
+            "row": 18,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 41,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_41",
+          "label": "AFT (lb) #41",
+          "labelNorm": "aft 41",
+          "aliases": [
+            "aft",
+            "41",
+            "aft 41"
+          ],
+          "labelAddress": "G18",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I18",
+            "row": 18,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 41,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_42",
+          "label": "FWD (lb) #42",
+          "labelNorm": "fwd 42",
+          "aliases": [
+            "fwd",
+            "42",
+            "fwd 42"
+          ],
+          "labelAddress": "G19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H19",
+            "row": 19,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 42,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_42",
+          "label": "AFT (lb) #42",
+          "labelNorm": "aft 42",
+          "aliases": [
+            "aft",
+            "42",
+            "aft 42"
+          ],
+          "labelAddress": "G19",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I19",
+            "row": 19,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 42,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_43",
+          "label": "FWD (lb) #43",
+          "labelNorm": "fwd 43",
+          "aliases": [
+            "fwd",
+            "43",
+            "fwd 43"
+          ],
+          "labelAddress": "G20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H20",
+            "row": 20,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 43,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_43",
+          "label": "AFT (lb) #43",
+          "labelNorm": "aft 43",
+          "aliases": [
+            "aft",
+            "43",
+            "aft 43"
+          ],
+          "labelAddress": "G20",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I20",
+            "row": 20,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 43,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_44",
+          "label": "FWD (lb) #44",
+          "labelNorm": "fwd 44",
+          "aliases": [
+            "fwd",
+            "44",
+            "fwd 44"
+          ],
+          "labelAddress": "G21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H21",
+            "row": 21,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 44,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_44",
+          "label": "AFT (lb) #44",
+          "labelNorm": "aft 44",
+          "aliases": [
+            "aft",
+            "44",
+            "aft 44"
+          ],
+          "labelAddress": "G21",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I21",
+            "row": 21,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 44,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_45",
+          "label": "FWD (lb) #45",
+          "labelNorm": "fwd 45",
+          "aliases": [
+            "fwd",
+            "45",
+            "fwd 45"
+          ],
+          "labelAddress": "G22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H22",
+            "row": 22,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 45,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_45",
+          "label": "AFT (lb) #45",
+          "labelNorm": "aft 45",
+          "aliases": [
+            "aft",
+            "45",
+            "aft 45"
+          ],
+          "labelAddress": "G22",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I22",
+            "row": 22,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 45,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_46",
+          "label": "FWD (lb) #46",
+          "labelNorm": "fwd 46",
+          "aliases": [
+            "fwd",
+            "46",
+            "fwd 46"
+          ],
+          "labelAddress": "G23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H23",
+            "row": 23,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 46,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_46",
+          "label": "AFT (lb) #46",
+          "labelNorm": "aft 46",
+          "aliases": [
+            "aft",
+            "46",
+            "aft 46"
+          ],
+          "labelAddress": "G23",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I23",
+            "row": 23,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 46,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_47",
+          "label": "FWD (lb) #47",
+          "labelNorm": "fwd 47",
+          "aliases": [
+            "fwd",
+            "47",
+            "fwd 47"
+          ],
+          "labelAddress": "G24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H24",
+            "row": 24,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 47,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_47",
+          "label": "AFT (lb) #47",
+          "labelNorm": "aft 47",
+          "aliases": [
+            "aft",
+            "47",
+            "aft 47"
+          ],
+          "labelAddress": "G24",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I24",
+            "row": 24,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 47,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_48",
+          "label": "FWD (lb) #48",
+          "labelNorm": "fwd 48",
+          "aliases": [
+            "fwd",
+            "48",
+            "fwd 48"
+          ],
+          "labelAddress": "G25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H25",
+            "row": 25,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 48,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_48",
+          "label": "AFT (lb) #48",
+          "labelNorm": "aft 48",
+          "aliases": [
+            "aft",
+            "48",
+            "aft 48"
+          ],
+          "labelAddress": "G25",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I25",
+            "row": 25,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 48,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_49",
+          "label": "FWD (lb) #49",
+          "labelNorm": "fwd 49",
+          "aliases": [
+            "fwd",
+            "49",
+            "fwd 49"
+          ],
+          "labelAddress": "G26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H26",
+            "row": 26,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 49,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_49",
+          "label": "AFT (lb) #49",
+          "labelNorm": "aft 49",
+          "aliases": [
+            "aft",
+            "49",
+            "aft 49"
+          ],
+          "labelAddress": "G26",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I26",
+            "row": 26,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 49,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_50",
+          "label": "FWD (lb) #50",
+          "labelNorm": "fwd 50",
+          "aliases": [
+            "fwd",
+            "50",
+            "fwd 50"
+          ],
+          "labelAddress": "G27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H27",
+            "row": 27,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 50,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_50",
+          "label": "AFT (lb) #50",
+          "labelNorm": "aft 50",
+          "aliases": [
+            "aft",
+            "50",
+            "aft 50"
+          ],
+          "labelAddress": "G27",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I27",
+            "row": 27,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 50,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_51",
+          "label": "FWD (lb) #51",
+          "labelNorm": "fwd 51",
+          "aliases": [
+            "fwd",
+            "51",
+            "fwd 51"
+          ],
+          "labelAddress": "G28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H28",
+            "row": 28,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 51,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_51",
+          "label": "AFT (lb) #51",
+          "labelNorm": "aft 51",
+          "aliases": [
+            "aft",
+            "51",
+            "aft 51"
+          ],
+          "labelAddress": "G28",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I28",
+            "row": 28,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 51,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_52",
+          "label": "FWD (lb) #52",
+          "labelNorm": "fwd 52",
+          "aliases": [
+            "fwd",
+            "52",
+            "fwd 52"
+          ],
+          "labelAddress": "G29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H29",
+            "row": 29,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 52,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_52",
+          "label": "AFT (lb) #52",
+          "labelNorm": "aft 52",
+          "aliases": [
+            "aft",
+            "52",
+            "aft 52"
+          ],
+          "labelAddress": "G29",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I29",
+            "row": 29,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 52,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_53",
+          "label": "FWD (lb) #53",
+          "labelNorm": "fwd 53",
+          "aliases": [
+            "fwd",
+            "53",
+            "fwd 53"
+          ],
+          "labelAddress": "G30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H30",
+            "row": 30,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 53,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_53",
+          "label": "AFT (lb) #53",
+          "labelNorm": "aft 53",
+          "aliases": [
+            "aft",
+            "53",
+            "aft 53"
+          ],
+          "labelAddress": "G30",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I30",
+            "row": 30,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 53,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        },
+        {
+          "id": "fwd_54",
+          "label": "FWD (lb) #54",
+          "labelNorm": "fwd 54",
+          "aliases": [
+            "fwd",
+            "54",
+            "fwd 54"
+          ],
+          "labelAddress": "G31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "H31",
+            "row": 31,
+            "col": 8,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 54,
+            "columnRole": "fwd",
+            "valueCol": 8
+          }
+        },
+        {
+          "id": "aft_54",
+          "label": "AFT (lb) #54",
+          "labelNorm": "aft 54",
+          "aliases": [
+            "aft",
+            "54",
+            "aft 54"
+          ],
+          "labelAddress": "G31",
+          "writeTarget": {
+            "type": "xlsx_cell",
+            "address": "I31",
+            "row": 31,
+            "col": 9,
+            "strategy": "grid"
+          },
+          "kind": "measurement",
+          "fieldType": "force_lb",
+          "grid": {
+            "indexCol": 7,
+            "index": 54,
+            "columnRole": "aft",
+            "valueCol": 9
+          }
+        }
+      ]
+    }
+  ],
+  "analyzer": "structural",
+  "ai": {
+    "used": true,
+    "confidence": 0.95,
+    "summary": "This schema defines a standardized form for recording shuttle tow test results, including identification, shot details, and force measurements.",
+    "provider": "ollama",
+    "model": "gemma4:e2b"
+  },
+  "sourcePath": "C:\\Users\\thind\\OneDrive\\Desktop\\HACKATHON\\Templates\\Shuttle Tow Test Template Empty (1).xlsx",
+  "version": 2,
+  "templateFile": "Shuttle Tow Test Template Empty (1).xlsx",
+  "templateHash": "f2905badad9dcdcdbc0d544c78ba3dd2b441c172b44f14dc1f32dece3c19ca6a",
+  "analyzedAt": "2026-11-04T23:11:21.604Z"
+}

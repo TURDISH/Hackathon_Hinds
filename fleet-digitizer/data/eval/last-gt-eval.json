@@ -1,0 +1,274 @@
+{
+  "gtPath": "C:\\Users\\thind\\AppData\\Local\\Cursor\\AgentStores\\cursor_agent_stores\\bc-d98f305b-c275-46be-8f7d-dff1c72b5f5a\\files\\internal\\uploads\\ground-truth-form1.xlsx",
+  "jobPath": "C:\\Users\\thind\\OneDrive\\Desktop\\HACKATHON\\fleet-digitizer\\data\\jobs\\b3235330-f1a9-4831-a0a7-ce90a2787f0d.json",
+  "jobId": "b3235330-f1a9-4831-a0a7-ce90a2787f0d",
+  "status": "finalized",
+  "wallMsHint": 540731,
+  "mode": "batch",
+  "mappingStats": {
+    "total": 119,
+    "filled": 112,
+    "lowConfidence": 20,
+    "measurementSlots": 108,
+    "measurementFilled": 102,
+    "measurementPlausible": 97,
+    "expectedSlots": 108,
+    "handwrittenCells": 103,
+    "gridOcrFilled": 102,
+    "schemaDriven": true,
+    "overlayBoxes": 112
+  },
+  "measurementSlots": 108,
+  "gtFilled": 108,
+  "predFilled": 102,
+  "exactMatch": 14,
+  "exactRate": 0.12962962962962962,
+  "missing": 6,
+  "wrong": 88,
+  "dateMatch": true,
+  "predDate": "03/09/2026",
+  "gtDate": "03/09/2026",
+  "mismatches": [
+    {
+      "id": "fwd_1",
+      "gt": "1400",
+      "got": "1500",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_28",
+      "gt": "1100",
+      "got": "1500",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_28",
+      "gt": "900",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_2",
+      "gt": "1400",
+      "got": "1500",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_29",
+      "gt": "1100",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_29",
+      "gt": "800",
+      "got": "1000",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_3",
+      "gt": "1800",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_3",
+      "gt": "1400",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_30",
+      "gt": "1200",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_4",
+      "gt": "1800",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_31",
+      "gt": "1300",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_5",
+      "gt": "1400",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_32",
+      "gt": "1200",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_32",
+      "gt": "900",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_6",
+      "gt": "1500",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_6",
+      "gt": "1400",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_33",
+      "gt": "1300",
+      "got": "1700",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_33",
+      "gt": "1200",
+      "got": "900",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_7",
+      "gt": "1400",
+      "got": "1100",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_34",
+      "gt": "1000",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_8",
+      "gt": "1200",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_8",
+      "gt": "1200",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_35",
+      "gt": "1300",
+      "got": "1500",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_35",
+      "gt": "1000",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_9",
+      "gt": "1200",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_9",
+      "gt": "1300",
+      "got": "1500",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_36",
+      "gt": "1200",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_36",
+      "gt": "1000",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_10",
+      "gt": "1200",
+      "got": "1000",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_10",
+      "gt": "1300",
+      "got": "900",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_37",
+      "gt": "1200",
+      "got": "900",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_11",
+      "gt": "1600",
+      "got": "1200",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_11",
+      "gt": "1200",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_38",
+      "gt": "1200",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_38",
+      "gt": "900",
+      "got": "1000",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_12",
+      "gt": "1500",
+      "got": "1400",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_12",
+      "gt": "1100",
+      "got": "1000",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_39",
+      "gt": "1500",
+      "got": "1300",
+      "kind": "wrong"
+    },
+    {
+      "id": "aft_39",
+      "gt": "1300",
+      "got": "1000",
+      "kind": "wrong"
+    },
+    {
+      "id": "fwd_13",
+      "gt": "1400",
+      "got": "1200",
+      "kind": "wrong"
+    }
+  ],
+  "exactPct": 13
+}

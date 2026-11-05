@@ -1,0 +1,31 @@
+{
+  "name": "fleet-sop-digitizer",
+  "version": "1.0.0",
+  "description": "Fleet Maintenance SOP digitizer — scan handwritten checkout logs into Word/Excel templates",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:schema": "node scripts/test-schema-dynamic.js",
+    "test:populate-schema": "node scripts/test-populate-schema.js",
+    "reprocess-templates": "node -e \"require('./src/services/templates').reprocessTemplates().then(r=>{console.log(JSON.stringify(r,null,2))})\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.80",
+    "cors": "^2.8.5",
+    "docxtemplater": "^3.67.4",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "pdfjs-dist": "^5.4.296",
+    "pizzip": "^3.2.0",
+    "sharp": "^0.34.4",
+    "tesseract.js": "^7.0.0",
+    "uuid": "^8.3.2"
+  }
+}

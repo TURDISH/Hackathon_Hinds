@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scanned Docs to Digitized Docs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-name">Scanned Docs to Digitized Docs</p>
+        <p class="brand-sub">Scan → match → review → populate</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="digitize" type="button">Digitize</button>
+      <button class="tab" data-tab="templates" type="button">Templates</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="panel-digitize" class="panel active">
+      <div class="hero-strip">
+        <div>
+          <h1>Checkout log digitizer</h1>
+          <p>Upload a scanned handwritten form. Template structure uses local Template AI (Ollama/Gemma 4 text). Handwriting uses local vision OCR (Gemma 4 batch table bands + Tesseract residual). After digitize, a sequential popup walks handwriting fields under 50% confidence with a cell snap for correction.</p>
+        </div>
+        <label class="drop" id="dropzone">
+          <input type="file" id="scanInput" accept=".pdf,image/*" hidden />
+          <strong>Drop PDF / image</strong>
+          <span>or click to browse · samples in ScannedDocs</span>
+        </label>
+      </div>
+
+      <div id="statusBar" class="status hidden"></div>
+
+      <div id="progressPanel" class="progress-panel hidden" aria-live="polite">
+        <div class="progress-head">
+          <strong id="progressStep">Processing…</strong>
+          <span id="progressPct" class="progress-pct">0%</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressTrack">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-meta">
+          <span id="progressDetail">Starting</span>
+          <span id="progressEta">Estimating time…</span>
+        </div>
+      </div>
+
+      <div id="workspace" class="workspace hidden">
+        <aside class="scan-pane">
+          <div class="pane-head">
+            <h2>Scan</h2>
+            <span id="scanMeta" class="meta"></span>
+          </div>
+          <div class="scan-frame">
+            <img id="scanPreview" alt="Uploaded scan preview" />
+          </div>
+          <details class="ocr-raw">
+            <summary>Raw page OCR text (Tesseract — labels/titles)</summary>
+            <pre id="ocrText"></pre>
+          </details>
+          <p class="meta stack-note" id="stackNote">Handwriting: vision Gemma 4 primary (+ Tesseract fallback) · Template AI: Ollama/Gemma 4 (schema only)</p>
+        </aside>
+
+        <section class="review-pane">
+          <div class="pane-head">
+            <h2>Review</h2>
+            <span id="reviewMeta" class="meta"></span>
+          </div>
+
+          <div class="match-card" id="matchCard"></div>
+
+          <div class="field-toolbar">
+            <label class="filter">
+              <input type="checkbox" id="onlyLow" checked />
+              Show low-confidence first (&lt;70%)
+            </label>
+            <button type="button" id="btnReviewLow" class="btn secondary" disabled>Review &lt;50%</button>
+            <button type="button" id="btnFinalize" class="btn primary" disabled>Finalize &amp; download</button>
+          </div>
+
+          <div id="fieldList" class="field-list"></div>
+        </section>
+      </div>
+    </section>
+
+    <div id="reviewModal" class="review-modal hidden" role="dialog" aria-modal="true" aria-labelledby="reviewModalTitle">
+      <div class="review-modal-card">
+        <div class="review-modal-head">
+          <h2 id="reviewModalTitle">Confirm handwriting</h2>
+          <span id="reviewModalProgress" class="meta"></span>
+        </div>
+        <p id="reviewModalLabel" class="review-modal-label"></p>
+        <div class="review-modal-body">
+          <div class="review-crop-wrap">
+            <canvas id="reviewCrop" width="240" height="120" aria-label="Snapped cell crop"></canvas>
+            <span class="meta" id="reviewCropHint">Cell snap</span>
+          </div>
+          <div class="review-modal-form">
+            <label for="reviewValueInput">Value</label>
+            <input id="reviewValueInput" type="text" autocomplete="off" spellcheck="false" />
+            <p class="meta">Enter or Next saves and advances. Skip leaves the OCR value.</p>
+            <div class="review-modal-actions">
+              <button type="button" id="btnReviewSkip" class="btn secondary">Skip</button>
+              <button type="button" id="btnReviewNext" class="btn primary">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="panel-templates" class="panel">
+      <div class="hero-strip compact">
+        <div>
+          <h1>Master templates</h1>
+          <p>Repository of Word (.docx) and Excel (.xlsx) masters. Uploaded files land in the HACKATHON Templates folder.</p>
+        </div>
+        <label class="btn secondary file-btn">
+          Upload template
+          <input type="file" id="tplInput" accept=".docx,.xlsx" hidden />
+        </label>
+      </div>
+      <div id="tplList" class="tpl-list"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span id="healthLine">Starting…</span>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

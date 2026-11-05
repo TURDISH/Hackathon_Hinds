@@ -1,0 +1,343 @@
+{
+  "type": "docx",
+  "labels": [
+    {
+      "text": "Catapult No:",
+      "norm": "catapult no",
+      "address": null
+    },
+    {
+      "text": "Date:",
+      "norm": "date",
+      "address": null
+    },
+    {
+      "text": "Periodicity Code:",
+      "norm": "periodicity code",
+      "address": null
+    },
+    {
+      "text": "JSN:",
+      "norm": "jsn",
+      "address": null
+    },
+    {
+      "text": "Shot No.:",
+      "norm": "shot no",
+      "address": null
+    },
+    {
+      "text": "CDI:",
+      "norm": "cdi",
+      "address": null
+    },
+    {
+      "text": "QA Inspector:",
+      "norm": "qa inspector",
+      "address": null
+    },
+    {
+      "text": "Cat Chief:",
+      "norm": "cat chief",
+      "address": null
+    },
+    {
+      "text": "Maint Officer/CPO:",
+      "norm": "maint officer cpo",
+      "address": null
+    }
+  ],
+  "fields": [
+    {
+      "id": "catapult_no",
+      "label": "Catapult No:",
+      "labelNorm": "catapult no",
+      "aliases": [
+        "catapult no",
+        "catapult",
+        "Catapult No"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{catapult_no}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "id_code",
+      "aiNotes": "Identifier for the catapult."
+    },
+    {
+      "id": "date",
+      "label": "Date:",
+      "labelNorm": "date",
+      "aliases": [
+        "date",
+        "Date"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{date}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "date",
+      "aiNotes": "Date of the record."
+    },
+    {
+      "id": "periodicity_code",
+      "label": "Periodicity Code:",
+      "labelNorm": "periodicity code",
+      "aliases": [
+        "periodicity code",
+        "periodicity",
+        "code",
+        "Periodicity Code"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{periodicity_code}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "id_code",
+      "aiNotes": "Code related to periodicity."
+    },
+    {
+      "id": "jsn",
+      "label": "JSN:",
+      "labelNorm": "jsn",
+      "aliases": [
+        "jsn",
+        "JSN"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{jsn}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "id_code",
+      "aiNotes": "Job/Service Number."
+    },
+    {
+      "id": "shot_no",
+      "label": "Shot No.:",
+      "labelNorm": "shot no",
+      "aliases": [
+        "shot no.",
+        "shot no",
+        "shot",
+        "Shot No."
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{shot_no}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "small_int",
+      "aiNotes": "Shot number."
+    },
+    {
+      "id": "cdi",
+      "label": "CDI:",
+      "labelNorm": "cdi",
+      "aliases": [
+        "cdi",
+        "CDI"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{cdi}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Name or initials for CDI."
+    },
+    {
+      "id": "qa_inspector",
+      "label": "QA Inspector:",
+      "labelNorm": "qa inspector",
+      "aliases": [
+        "qa inspector",
+        "inspector",
+        "QA Inspector"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{qa_inspector}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Name or initials for the QA Inspector."
+    },
+    {
+      "id": "cat_chief",
+      "label": "Cat Chief:",
+      "labelNorm": "cat chief",
+      "aliases": [
+        "cat chief",
+        "cat",
+        "chief",
+        "Cat Chief"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{cat_chief}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Name or initials for the Cat Chief."
+    },
+    {
+      "id": "maint_officer_cpo",
+      "label": "Maint Officer/CPO:",
+      "labelNorm": "maint officer cpo",
+      "aliases": [
+        "maint officer/cpo",
+        "maint officer cpo",
+        "maint",
+        "officer",
+        "cpo",
+        "Maint Officer/CPO"
+      ],
+      "labelAddress": null,
+      "writeTarget": {
+        "type": "docx_placeholder",
+        "placeholder": "{{maint_officer_cpo}}",
+        "strategy": "named_placeholder"
+      },
+      "kind": "header",
+      "fieldType": "name_or_initials",
+      "aiNotes": "Name or initials for the Maintenance Officer/CPO."
+    }
+  ],
+  "fingerprint": [
+    "shuttle tow test",
+    "catapult no:",
+    "date:",
+    "periodicity code:",
+    "jsn:",
+    "shot no.:",
+    "shot since last insp.",
+    "center of trough cover",
+    "fwd (lb)",
+    "aft (lb)",
+    "center of trough cover",
+    "fwd (lb)",
+    "aft (lb)",
+    "1",
+    "28",
+    "2",
+    "29",
+    "3",
+    "30",
+    "4",
+    "31",
+    "5",
+    "32",
+    "6",
+    "33",
+    "7",
+    "34",
+    "8",
+    "35",
+    "9",
+    "36",
+    "10",
+    "37",
+    "11",
+    "38",
+    "12",
+    "39",
+    "13",
+    "40",
+    "14",
+    "41",
+    "15",
+    "42",
+    "16",
+    "43",
+    "17",
+    "44",
+    "18",
+    "45",
+    "19",
+    "46",
+    "20",
+    "47",
+    "21",
+    "48",
+    "22",
+    "49",
+    "23",
+    "50",
+    "24",
+    "51",
+    "25",
+    "52",
+    "26",
+    "53",
+    "27",
+    "54",
+    "cdi:",
+    "qa inspector:",
+    "cat chief:",
+    "maint officer/cpo:"
+  ],
+  "titleHints": [
+    "aft",
+    "center",
+    "cover",
+    "fwd",
+    "shot",
+    "trough",
+    "cat",
+    "catapult",
+    "cdi",
+    "chief",
+    "code",
+    "cpo",
+    "date",
+    "insp",
+    "inspector",
+    "jsn"
+  ],
+  "slotLayout": {
+    "schema": "generic",
+    "headerSlots": 9,
+    "measurementSlots": 0,
+    "expectedHandwrittenDataCells": 0,
+    "grids": [],
+    "leftTable": null,
+    "rightTable": null,
+    "dataRows": 0,
+    "hasMeasurementGrid": false
+  },
+  "grids": [],
+  "rawText": "Shuttle Tow Test\n\nCatapult No:\n\n \n\nDate:\n\n \n\nPeriodicity Code:\n\n \n\nJSN:\n\n \n\nShot No.:\n\n \n\nShot Since Last Insp.\n\n \n\n\n\nCenter of Trough Cover\n\nFWD (lb)\n\nAFT (lb)\n\n\n\nCenter of Trough Cover\n\nFWD (lb)\n\nAFT (lb)\n\n\n\n\n\n1\n\n \n\n \n\n\n\n28\n\n \n\n \n\n\n\n\n\n2\n\n \n\n \n\n\n\n29\n\n \n\n \n\n\n\n\n\n3\n\n \n\n \n\n\n\n30\n\n \n\n \n\n\n\n\n\n4\n\n \n\n \n\n\n\n31\n\n \n\n \n\n\n\n\n\n5\n\n \n\n \n\n\n\n32\n\n \n\n \n\n\n\n\n\n6\n\n \n\n \n\n\n\n33\n\n \n\n \n\n\n\n\n\n7\n\n \n\n \n\n\n\n34\n\n \n\n \n\n\n\n\n\n8\n\n \n\n \n\n\n\n35\n\n \n\n \n\n\n\n\n\n9\n\n \n\n \n\n\n\n36\n\n \n\n \n\n\n\n\n\n10\n\n \n\n \n\n\n\n37\n\n \n\n \n\n\n\n\n\n11\n\n \n\n \n\n\n\n38\n\n \n\n \n\n\n\n\n\n12\n\n \n\n \n\n\n\n39\n\n \n\n \n\n\n\n\n\n13\n\n \n\n \n\n\n\n40\n\n \n\n \n\n\n\n\n\n14\n\n \n\n \n\n\n\n41\n\n \n\n \n\n\n\n\n\n15\n\n \n\n \n\n\n\n42\n\n \n\n \n\n\n\n\n\n16\n\n \n\n \n\n\n\n43\n\n \n\n \n\n\n\n\n\n17\n\n \n\n \n\n\n\n44\n\n \n\n \n\n\n\n\n\n18\n\n \n\n \n\n\n\n45\n\n \n\n \n\n\n\n\n\n19\n\n \n\n \n\n\n\n46\n\n \n\n \n\n\n\n\n\n20\n\n \n\n \n\n\n\n47\n\n \n\n \n\n\n\n\n\n21\n\n \n\n \n\n\n\n48\n\n \n\n \n\n\n\n\n\n22\n\n \n\n \n\n\n\n49\n\n \n\n \n\n\n\n\n\n23\n\n \n\n \n\n\n\n50\n\n \n\n \n\n\n\n\n\n24\n\n \n\n \n\n\n\n51\n\n \n\n \n\n\n\n\n\n25\n\n \n\n \n\n\n\n52\n\n \n\n \n\n\n\n\n\n26\n\n \n\n \n\n\n\n53\n\n \n\n \n\n\n\n\n\n27\n\n \n\n \n\n\n\n54\n\n \n\n \n\n\n\n\n\nCDI:\n\n \n\n\n\nQA Inspector:\n\n \n\n\n\n\n\nCat Chief:\n\n \n\n\n\nMaint Officer/CPO:\n\n \n\n\n\n\n\n",
+  "analyzer": "structural",
+  "ai": {
+    "used": true,
+    "confidence": 0.95,
+    "summary": "This form template is a header-heavy document used for logging operational details related to catapults, shots, and personnel.",
+    "provider": "ollama",
+    "model": "gemma4:e2b"
+  },
+  "sourcePath": "C:\\Users\\thind\\OneDrive\\Desktop\\HACKATHON\\Templates\\Tow Test Word Template (1).docx",
+  "version": 2,
+  "templateFile": "Tow Test Word Template (1).docx",
+  "templateHash": "83c47d84a3f4de8537047ed5d77fd97a66fec015f060135dab773475294f4861",
+  "analyzedAt": "2026-11-04T23:12:29.743Z"
+}
